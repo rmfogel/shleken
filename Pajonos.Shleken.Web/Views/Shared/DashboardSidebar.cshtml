@@ -1,0 +1,27 @@
+﻿
+@{ 
+    string controllerAction = ViewContext.RouteData.Values["Controller"].ToString() + ViewContext.RouteData.Values["Action"].ToString();
+}
+<ul class="nav">
+    <li>
+        <a class="nav-link @(controllerAction == "RootDashboard" ? "active" : "" )" href="~/dashboard"><i class="fa fa-home fa-fw" aria-hidden="true"></i> Dashboard</a>
+    </li>
+    <li>
+        <a class="@(controllerAction == "RootProjects" ? "active" : "" ) nav-link" href="~/Projects"><i class="fa fa-cubes fa-fw" aria-hidden="true"></i> Projects</a>
+    </li>
+    <li>
+        <a class="@(controllerAction == "RootTeam" ? "active" : "" ) nav-link" href="~/Teams"><i class="fa fa-users fa-fw" aria-hidden="true"></i> Teams</a>
+    </li>
+    <li>
+        <a class="@(controllerAction == "RootTimesheet" ? "active" : "" ) nav-link" href="~/timesheet"><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i> Timesheet</a>
+    </li>
+    <li>
+        <a class="@(controllerAction == "RootBudget" ? "active" : "" ) nav-link" href="~/budget"><i class="fa fa-usd fa-fw" aria-hidden="true"></i> Budget</a>
+    </li>
+    <li>
+        <a class="@(controllerAction == "RootStatisticts" ? "active" : "" ) nav-link" href="~/statisticts"><i class="fa fa-bar-chart fa-fw" aria-hidden="true"></i> Statistics</a>
+    </li>
+    @*<li>
+        <a class="@(controllerAction == "RootSettings" ? "active" : "" ) nav-link" href="#"><i class="fa fa-cog fa-fw" aria-hidden="true"></i> Settings</a>
+    </li>*@
+</ul>

@@ -1,0 +1,83 @@
+﻿@model Pajonos.Shleken.Services.Models.RefUserProViewModel
+
+@{
+    ViewBag.Title = "Edit Users";
+    Layout = "~/Views/Shared/_LayoutModal.cshtml";
+}
+<div class="container-fluid">
+    @using (Html.BeginForm("Userssave", "Project", null, FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h4>RefUserProViewModel</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.Id)
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            @*<div class="form-group">
+                Role
+                           <div class="col-md-10">
+                               <select name="roleId">
+                                 @foreach (var item in ViewBag.Roles)
+                                 {
+
+                                 }
+                               </select>
+                                @Html.DropDownListFor(roleId, new SelectList(, "Id", "Name"), new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                            </div>
+                        </div>*@
+            <div class="form-group">
+                <label class="control-label col-md-2"> Role</label>
+                <div class="col-md-10">
+                    <input class="form-control" type="text" name="RoleName" />
+                </div>
+            </div>
+            <input type="hidden" name="ProjectId" value="@ViewBag.ProjectId" />
+            @Html.HiddenFor(model => model.Roles)
+            <div class="form-group">
+                <label class="control-label col-md-2">Price per hour</label>
+                <div class="col-md-10">
+                    <input class="form-control" type="number" value="100" name="Value" />
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="file" class="form-group" placeholder="upload image" name="Image" />
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <input type="submit" value="Save" class="btn btn-primary" />
+                    <button type="button" class="btn btn-default" data-popup-close>Cancel</button>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+

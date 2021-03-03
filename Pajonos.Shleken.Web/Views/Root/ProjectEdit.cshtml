@@ -1,0 +1,98 @@
+﻿@model Pajonos.Shleken.Services.Models.ProjectsViewModel
+@using Pajonos.Shleken.Services
+@using Pajonos.Shleken.Services.Models
+@{
+    Layout = "~/Views/Shared/_LayoutModal.cshtml";
+
+}
+
+<div class="container-fluid">
+    @using (Html.BeginForm("Projectsave", "Root", FormMethod.Post, new { @class = "form-horizontal" }))
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(model => model.AccountId)
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="form-group">
+            @Html.LabelFor(i => Model.Name, new { @class = "col-sm-2 control-label" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(i => Model.Name, new { @class = "form-control", placeholder = "Name", type = "text" })
+                <span class="help-block">Projects Name</span>
+                @Html.ValidationMessageFor(i => Model.Name)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(i => Model.OwnerId, new { @class = "col-sm-2 control-label" })
+            <div class="col-sm-10">
+                @Html.DropDownListFor(i => Model.OwnerId, new SelectList(ViewBag.Users, "Id", "Name"), new { @class = "form-control" })
+                <span class="help-block">Projects Owner</span>
+                @Html.ValidationMessageFor(i => Model.OwnerId)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.StartDate, htmlAttributes: new { @class = "col-sm-2 control-label" })
+            <div class="col-sm-10">
+                @Html.EditorFor(model => model.StartDate, new { htmlAttributes = new { @class = "form-control", type = "date" } })
+                <span class="help-block">Start Date</span>
+                @Html.ValidationMessageFor(model => model.StartDate, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.EndDate, htmlAttributes: new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.EditorFor(model => model.EndDate, new { htmlAttributes = new { @class = "form-control", type = "date" } })
+                <span class="help-block">End Date</span>
+                @Html.ValidationMessageFor(model => model.EndDate, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(i => Model.Status, new { @class = "col-sm-2 control-label" })
+            <div class="col-sm-10">
+                @Html.DropDownListFor(i => Model.Status, new SelectList(ViewBag.Status, "Id", "Name"), new { @class = "form-control" })
+                <span class="help-block">Projects status</span>
+                @Html.ValidationMessageFor(i => Model.Status)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(i => Model.JiraUrl, new { @class = "col-sm-2 control-label" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(i => Model.JiraUrl, new { @class = "form-control", placeholder = "Jira Url", type = "text" })
+                <span class="help-block">Jira Url</span>
+                @Html.ValidationMessageFor(i => Model.JiraUrl)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(i => Model.JiraUserName, new { @class = "col-sm-2 control-label" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(i => Model.JiraUserName, new { @class = "form-control", placeholder = "Jira Users Name", type = "text" })
+                <span class="help-block">Jira Users Name</span>
+                @Html.ValidationMessageFor(i => Model.JiraUserName)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(i => Model.JiraPassword, new { @class = "col-sm-2 control-label" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(i => Model.JiraPassword, new { @class = "form-control", placeholder = "Jira Password", type = "text" })
+                <span class="help-block">Jira Password</span>
+                @Html.ValidationMessageFor(i => Model.JiraPassword)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(i => Model.JiraProjectkey, new { @class = "col-sm-2 control-label" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(i => Model.JiraProjectkey, new { @class = "form-control", placeholder = "Jira Projects Key", type = "text" })
+                <span class="help-block">Jira Projects key</span>
+                @Html.ValidationMessageFor(i => Model.JiraProjectkey)
+            </div>
+        </div>
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <input type="submit" value="Save" class="btn btn-primary" />
+                <button type="button" class="btn btn-default" data-popup-close>Cancel</button>
+            </div>
+        </div>
+    }
+</div>

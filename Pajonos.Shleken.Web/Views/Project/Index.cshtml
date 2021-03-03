@@ -1,0 +1,761 @@
+﻿@using Pajonos.Shleken.Services
+@using Pajonos.Shleken.Services.Models
+@{
+    ViewData["Title"] = ViewBag.ProjectsName.Name;
+
+    var Contacts = ContactsService.Get(ViewBag.ProjectId);
+    var Meetings = Meetingservice.Get(ViewBag.ProjectId);
+    var Files = Fileservice.Get(ViewBag.ProjectId);
+    var activities = Activitieservice.Get(ViewBag.ProjectId);
+    var ToDoLists = ToDoListservice.Get(ViewBag.ProjectId);
+    var ContactsViewModel = new ContactsViewModel() { ProjectId = ViewBag.ProjectId };
+    var MeetingsViewModel = new MeetingsViewModel() { ProjectId = ViewBag.ProjectId };
+    var FilesViewModel = new FilesViewModel() { ProjectId = ViewBag.ProjectId };
+    var FilesViewModelUpdate = new FilesViewModel() { ProjectId = ViewBag.ProjectId, Name = "ggggg" };
+    var ToDoListsViewModel = new ToDoListsViewModel() { ProjectId = ViewBag.ProjectId };
+    var ActivitiesViewModel = new ActivitiesViewModel() { ProjectId = ViewBag.ProjectId };
+}
+
+@section Sidebar {
+    @Html.Partial("ProjectSidebar")
+}
+
+@section TitleRight {
+    <div class="dl-horizontal">
+        <strong>Client</strong>
+        <span><a href="#">Client A</a></span>
+        @*<strong>Owner</strong>
+        <span><a href="#"><img src="~/images/r.JPG" class="Users Users-xs" /> @ViewBag.Projects.StatusName</a></span>*@
+        <strong>Date</strong>
+        <span>
+            @ViewBag.CurrentProject.StartDate.ToShortDateString()
+            -  @ViewBag.CurrentProject.EndDate.ToShortDateString()
+
+        </span>
+        <strong>Status</strong>
+        <span class="label label-success">@ViewBag.CurrentProject.StatusName</span>
+    </div>
+}
+
+@section Script{
+    <script>
+        new Date().getFullYear()
+        $(function () {
+            var progressChartData = {
+                labels: [`Jan ${year}`, `Feb ${year}`, `Mar ${year}`, `Apr ${year}`, `May ${year}`, `Jun ${year}`, `Jul ${year}`, `Aug ${year}`, `Sep ${year}`, `Oct ${year}`, `Nov ${year}`, `Dec ${year}`],
+                datasets: [
+                    {
+                        label: 'Future',
+                        type: 'line',
+                        fill: false,
+                        pointBorderColor: "#b3b3b3",
+                        backgroundColor: "#b3b3b3",
+                        pointRadius: 4,
+                        borderWidth: 1,
+                        borderColor: "#b3b3b3",
+                        data: [null, null, null, null, null, null, null, 80, 95, 80],
+                        borderDash: [10, 5],
+                        tension: 0
+                    }, {
+                        label: 'Actual',
+                        type: 'line',
+                        fill: false,
+                        pointBackgroundColor: ["#337ab7", "#337ab7", "#337ab7", "#337ab7", "#337ab7", "#d9534f", "#d9534f", "#337ab7"],
+                        pointBorderColor: ["#337ab7", "#337ab7", "#337ab7", "#337ab7", "#337ab7", "#d9534f", "#d9534f", "#337ab7"],
+                        backgroundColor: "#337ab7",
+                        pointRadius: 4,
+                        borderWidth: 1,
+                        borderColor: "#337ab7",
+                        data: [85, 60, 70, 50, 50, 80, 40, 80, null, null],
+                        tension: 0
+                    },
+                {
+                    label: 'Planned',
+                    type: 'bar',
+                    fill: false,
+                    backgroundColor: "#ccc",
+                    borderWidth: 1,
+                    //todo data: [90, 80, 70, 60, 50, 75, 35, 95, 100, 85]
+                }]
+            };
+
+           var chart= new Chart($("#progress"), {
+                type: 'bar',
+                data: progressChartData,
+                options: {
+                    legend: { position: "top" },
+                    responsive: true,
+                    title: {
+                        display: false,
+                        text: "Chart.js Bar Chart - Multi Axis"
+                    },
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                min: 0,
+                                max:100
+                            }
+                        }]
+                    }
+                }
+            });
+
+            $("#calendar").fullCalendar({
+                header: false,
+                defaultDate: '@DateTime.Now.ToString("yyyy-MM-dd")',
+                navLinks: false,
+                editable: false,
+                eventLimit: true,
+                events: [
+                    {
+                        title: 'All Day Event',
+                        start: '2017-10-01',
+                    },
+                    {
+                        title: 'Long Event',
+                        start: '2017-10-07',
+                        end: '2017-10-10'
+                    },
+                    {
+                        id: 999,
+                        title: 'Repeating Event',
+                        start: '2017-10-09T16:00:00'
+                    },
+                    {
+                        id: 999,
+                        title: 'Repeating Event',
+                        start: '2017-10-16T16:00:00'
+                    },
+                    {
+                        title: 'Conference',
+                        start: '2017-10-11',
+                        end: '2017-10-13'
+                    },
+                    {
+                        title: 'Meetings',
+                        start: '2017-10-12T10:30:00',
+                        end: '2017-10-12T12:30:00'
+                    },
+                    {
+                        title: 'Lunch',
+                        start: '2017-10-12T12:00:00'
+                    },
+                    {
+                        title: 'Meetings',
+                        start: '2017-10-12T14:30:00'
+                    },
+                    {
+                        title: 'Happy Hour',
+                        start: '2017-10-12T17:30:00'
+                    },
+                    {
+                        title: 'Dinner',
+                        start: '2017-10-12T20:00:00'
+                    },
+                    {
+                        title: 'Birthday Party',
+                        start: '2017-10-13T07:00:00'
+                    },
+                    {
+                        title: 'Click for Google',
+                        url: 'http://google.com/',
+                        start: '2017-10-28'
+                    }
+                ]
+            });
+        });
+    </script>
+}
+
+<div class="row hidden-xs">
+    <div class="col-md-2 col-sm-6 col-xs-12">
+        <div class="thumbnail">
+            <div class="caption">
+                <h3>
+                    <i class="fa fa-flag" aria-hidden="true"></i> Active Sprint (
+                    )
+                </h3>
+                <strong><a href="#">@*@(ViewBag.PercentageSprint )*@% </a></strong>
+                <small><a href="#">Jira Account</a>@*@ViewBag.Jira.ClosedIssuesInActiveSprint/@ViewBag.Jira.AllIssuesInActiveSprint*@  Close Issues In Active Sprint(Jira)</small>
+                <small><a href="#">@*@(ViewBag.Jira.DateActiveSprint)*@ Days Remaining</a></small>
+            </div>
+        </div>
+    </div>
+    @*<div class="col-md-2 col-sm-6 col-xs-12">
+            <div class="thumbnail">
+                <div class="caption">
+                    <h3><i class="fa fa-umbrella" aria-hidden="true"></i> Next Risks</h3>
+                    <strong>@(ViewBag.Days) Days</strong>
+                    <small>Owned by <a href="#">@ViewBag.ClosestRisks.UsersName</a></small>
+                    <small>@ViewBag.ClosestRisks.PriorityName Priority</small>
+                </div>
+            </div>
+        </div>*@
+    <div class="col-md-2 col-sm-6 col-xs-12">
+        <div class="thumbnail">
+            <div class="caption">
+                <h3><i class="fa fa-line-chart" aria-hidden="true"></i> Projects Progress</h3>
+                <strong>@*@( ViewBag.PercentageCloseSprint)*@%</strong>
+                <small>@*@(ViewBag.Jira.ClosestSprint)/@(ViewBag.Jira.CountSprint)*@ Close Sprints (Jira)</small>
+                <small>@*@ViewBag.Jira.OpenIssues*@ Active Issues (Jira)</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2 col-sm-6 col-xs-12">
+        <div class="thumbnail">
+            <div class="caption">
+                <h3><i class="fa fa-clock-o" aria-hidden="true"></i> Hours Reported</h3>
+                <strong><a href="#">425</a></strong>
+                <small><a href="#">700 Total</a></small>
+                <small><a href="#">125 Last Week</a></small>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2 col-sm-6 col-xs-12">
+        <div class="thumbnail">
+            <div class="caption">
+                <h3><i class="fa fa-usd" aria-hidden="true"></i> Budget</h3>
+                <strong>@(ViewBag.OutcomesUntilNow)$</strong>
+                <small>@*@(ViewBag.Projects.TaskTotalCost)$*@ Total</small>
+                <small>@*@(ViewBag.OuotcomeDiff)$ (@(ViewBag.Percenses)%)*@ Profit</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2 col-sm-6 col-xs-12">
+        <div class="thumbnail">
+            <div class="caption">
+                <h3><i class="fa fa-trophy" aria-hidden="true"></i> Projects Success</h3>
+                <strong>80%</strong>
+                <small>70% Budget</small>
+                <small>90% Delivery</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"><a href="~/1/statistics"><i class="fa fa-line-chart" aria-hidden="true"></i> Status</a></h3>
+            </div>
+            <canvas id="progress" height="60"></canvas>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <a href="~/Project/@(ViewBag.ProjectId)/activities/New" class="pull-right" title="New Activities" data-popup><i class="fa fa-plus" aria-hidden="true"></i> New</a>
+                <h3 class="panel-title"><a href="~/Project/@(ViewBag.ProjectId)/activities"><i class="fa fa-calendar" aria-hidden="true"></i> Activities</a></h3>
+            </div>
+            <ul class="list-group">
+                @foreach (var item in activities)
+                {
+                    <li class="list-group-item">
+                        @item.Title<br />@item.Notes
+                        <br />
+                        <a href="~/Project/@(ViewBag.ProjectId)/activities/@(item.Id)/delete" class="pull-right delete-item"><i class="glyphicon glyphicon-trash fa-fw" aria-hidden="true"></i></a>
+                        <a href="~/Project/@item.ProjectId/activities/@item.Id" class="pull-right fa-fw" title="Edit Activities" data-popup><i class="glyphicon glyphicon-pencil" aria-hidden="true"></i></a>
+                        <small><a href="#"><img src="~/images/meir.png" class="Users Users-xs" />Meir Dahan</a>, @item.Date</small>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <a href="~/Project/@(ViewBag.ProjectId)/ToDoLists/New" title="New ToDoLists" data-popup class="pull-right"><i class="fa fa-plus" aria-hidden="true"></i> New</a>
+                <h3 class="panel-title"><a href="~/Project/@(ViewBag.ProjectId)/ToDoLists"><i class="fa fa-list-alt" aria-hidden="true"></i> To Do List</a></h3>
+            </div>
+
+            <ul class="list-group list-checkbox">
+                @foreach (var item in ToDoLists)
+                {
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-1">
+                                @*<input type="checkbox" checked="@item.IsDone" />*@
+                            </div>
+
+                            <div class="col-xs-11">
+                                <div class="text"> @item.Description<br /></div>
+                                <div> @(item.Status)</div>
+                                <a href="~/Project/@(ViewBag.ProjectId)/ToDoLists/@(item.Id)/delete" class="pull-right delete-item"><i class="glyphicon glyphicon-trash fa-fw" aria-hidden="true"></i></a>
+                                <a href="~/Project/@(item.ProjectId)/ToDoLists/@(item.Id)" title="Edit ToDoLists" data-popup class="pull-right"><i class="glyphicon glyphicon-pencil fa-fw" aria-hidden="true"></i></a>
+                                <small>@item.CreatedDate, @item.Date</small>
+                            </div>
+                        </div>
+
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <a href="~/Project/@(ViewBag.ProjectId)/Files/New" class="pull-right" title="New Files" data-popup><i class="fa fa-plus" aria-hidden="true"></i> New</a>
+                <h3 class="panel-title"><a href="~/Project/@(ViewBag.ProjectId)/Files"><i class="fa fa-Files" aria-hidden="true"></i> Files</a></h3>
+            </div>
+            <ul class="list-group">
+                @foreach (var item in Files)
+                {
+
+                    <li class="list-group-item">
+                        <strong><a href="#"><i class="fa fa-Files-word-o" aria-hidden="true"></i>@item.Name</a></strong>
+                        <br />
+                        <small>@item.CreatedDate</small>
+                        <a href="~/Project/@(ViewBag.ProjectId)/Files/@(item.Id)/delete" class="pull-right delete-item"><i class="glyphicon glyphicon-trash" aria-hidden="true"></i></a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <a href="~/Project/@ViewBag.ProjectId/Meetings/New" class="pull-right" title="New Meetingsummery" data-popup><i class="fa fa-plus" aria-hidden="true"></i> New</a>
+                <h3 class="panel-title"><a href="~/Project/@(ViewBag.ProjectId)/Meetings"><i class="fa fa-Users" aria-hidden="true"></i> Meetings Summary</a></h3>
+            </div>
+            <ul class="list-group">
+                @foreach (var item in Meetings)
+                {
+                    <li class="list-group-item">
+                        <strong>@item.Subject</strong>
+                        <div class="info">
+                            <small><i class="fa fa-calendar" aria-hidden="true"></i>@item.Date</small>
+                            &nbsp;&nbsp;
+                            <small><i class="fa fa-globe" aria-hidden="true"></i> @item.Location</small>
+                            &nbsp;&nbsp;
+                            <small><i class="fa fa-Users-circle-o" aria-hidden="true"></i> <a href="#"> @item.Members</a>, <a href="#">@item.Members</a></small>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2">
+                                <strong>Agenda:</strong>
+                            </div>
+                            <div class="col-md-10">
+                                @item.Agenda
+                            </div>
+                        </div>
+                        <a href="~/Project/@(ViewBag.ProjectId)/Meetings/@(item.Id)/delete" class="pull-right delete-item"><i class="glyphicon glyphicon-trash fa-fw" aria-hidden="true"></i></a>
+                        <a href="~/Project/@item.ProjectId/Meetings/@item.Id" title="Edit Meetingsummery" data-popup class="pull-right"><i class="glyphicon glyphicon-pencil fa-fw" aria-hidden="true"></i></a>
+                        <div class="row">
+                            <div class="col-md-2">
+                                <strong>Actions:</strong>
+                            </div>
+                            <div class="col-md-10">
+                                @item.Actions
+                            </div>
+                        </div>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+
+                <a href="~/Project/@ViewBag.ProjectId/Contacts/New" class="pull-right" title="New Contacts" data-popup><i class="fa fa-plus" aria-hidden="true"></i> New</a>
+                <h3 class="panel-title"><a href="~/Project/@(ViewBag.ProjectId)/Contacts"><i class="fa fa-address-card-o" aria-hidden="true"></i> Contacts</a></h3>
+            </div>
+            <ul class="list-group">
+                @foreach (var item in Contacts)
+                {
+                    <li class="list-group-item">
+                        <strong>@item.Name</strong>
+                        <br />
+                        @item.ProjectId
+                        @item.Role    @item.Company
+                        <br />
+                        <a href="~/Project/@(ViewBag.ProjectId)/Contacts/@(item.Id)/delete" class="pull-right delete-item"><i class="glyphicon glyphicon-trash fa-fw" aria-hidden="true"></i></a>
+                        <a href="~/Project/@item.ProjectId/Contacts/@item.Id" title="Edit Contacts" data-popup class="pull-right "><i class="glyphicon glyphicon-pencil fa-fw" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-phone" aria-hidden="true"></i>@item.Phone</a>
+                        <br />
+                        <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> @item.Email</a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+@*<div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <div class="btn-group pull-right" Roles="group" aria-label="Navigation">
+                        <button type="button" class="btn btn-default btn-xs"><i class="fa fa-caret-left" aria-hidden="true"></i></button>
+                        <button type="button" class="btn btn-default btn-xs"><i class="fa fa-caret-right" aria-hidden="true"></i></button>
+                    </div>
+
+                    <div class="btn-group pull-right" Roles="group" aria-label="Navigation">
+                        <button type="button" class="btn btn-default btn-xs">Month</button>
+                        <button type="button" class="btn btn-default btn-xs">Week</button>
+                        <button type="button" class="btn btn-default btn-xs">Day</button>
+                        <button type="button" class="btn btn-default btn-xs">List</button>
+                    </div>
+                    <h3 class="panel-title"><a href="~/1/Risks"><i class="fa fa-calendar" aria-hidden="true"></i> Calendar - @DateTime.Now.ToString("MMMM yyyy", new System.Globalsization.CultureInfo("en-US"))</a></h3>
+                </div>
+                <div id="calendar"></div>
+            </div>
+
+        </div>
+    </div>*@
+
+<div class="modal fade" id="modalActivitiesNew" tabindex="-1" Roles="dialog">
+    <div class="modal-dialog" Roles="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title"><i class="fa fa-Tasks" aria-hidden="true"></i> New Activities</h4>
+            </div>
+            <div class="modal-body">
+                @using (Ajax.BeginForm("CreateActivities", "Project", null, new AjaxOptions() { HttpMethod = "POST", }, new { @class = "form-horizontal" }))
+                {
+                    @Html.AntiForgeryToken();
+                    @Html.HiddenFor(i => ActivitiesViewModel.ProjectId)
+
+                    <div class="form-group">
+                        @Html.LabelFor(i => ActivitiesViewModel.Title, new { @class = "col-sm-2 control-label" })
+                        <div class="col-sm-10">
+                            @Html.TextBoxFor(i => ActivitiesViewModel.Title, new { @class = "form-control", placeholder = "Write your titel..", type = "text" })
+                            <span class="help-block">The title</span>
+                            @Html.ValidationMessageFor(i => ActivitiesViewModel.Title)
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(i => ActivitiesViewModel.Notes, new { @class = "col-sm-2 control-label" })
+                        <div class="col-sm-10">
+                            @Html.TextAreaFor(i => ActivitiesViewModel.Notes, new { @class = "form-control", placeholder = "Write your notes..", rows = "5", type = "text" })
+                            <span class="help-block">The notes</span>
+                            @Html.ValidationMessageFor(i => ActivitiesViewModel.Notes)
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalTasksNew" tabindex="-1" Roles="dialog">
+    <div class="modal-dialog" Roles="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title"><i class="fa fa-Tasks" aria-hidden="true"></i> New Tasks</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label for="name" class="col-sm-2 control-label">Name</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="name" placeholder="Name">
+                            <span class="help-block">Tasks name will appear in timesheet and in client invoices</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="name" class="col-sm-2 control-label">Members</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="name" placeholder="Members">
+                            <span class="help-block">Members that will be able to report for this Tasks</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="hours" class="col-sm-2 control-label">Hours</label>
+                        <div class="col-sm-10">
+                            <input type="number" class="form-control" id="hours" placeholder="Hours">
+                            <span class="help-block">Amount of hours that can be reported to this Tasks</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Allow Exception
+                                    <span class="help-block">Allow to report event when hours exceed</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Billable
+                                    <span class="help-block">Calculate this Tasks for client</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="comments" class="col-sm-2 control-label">Comments</label>
+                        <div class="col-sm-10">
+                            <textarea type="number" class="form-control" id="comments" placeholder="Comments" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-primary">Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modalFilesNew" tabindex="-1" Roles="dialog">
+    <div class="modal-dialog" Roles="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title"><i class="fa fa-Tasks" aria-hidden="true"></i> New Files</h4>
+            </div>
+            <div class="modal-body">
+                @using (Ajax.BeginForm("CreateFiles", "Project", null, new AjaxOptions() { HttpMethod = "POST", }, new { @class = "form-horizontal" }))
+                {
+                    @Html.AntiForgeryToken();
+                    @Html.HiddenFor(i => FilesViewModel.ProjectId)
+
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            @Html.TextBoxFor(i => FilesViewModel.Name, new { @class = "form-control", type = "Files" })
+                            <label></label>
+                            <span class="help-block">The Files</span>
+                            @Html.ValidationMessageFor(i => FilesViewModel.Name)
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalFilesUpdate" tabindex="-1" Roles="dialog">
+    <div class="modal-dialog" Roles="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title"><i class="fa fa-Tasks" aria-hidden="true"></i>Update Files</h4>
+            </div>
+            <div class="modal-body">
+                @using (Ajax.BeginForm("UpdateFiles", "Project", null, new AjaxOptions() { HttpMethod = "POST", }, new { @class = "form-horizontal" }))
+                {
+                    @Html.AntiForgeryToken();
+                    @Html.HiddenFor(i => FilesViewModelUpdate.ProjectId)
+
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            @Html.TextBoxFor(i => FilesViewModelUpdate.Name, new { @class = "form-control", type = "Files", })
+                            <span class="help-block">The Files</span>
+                            @Html.ValidationMessageFor(i => FilesViewModelUpdate.Name)
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="modal fade" id="modalMeetingsummaryNew" tabindex="-1" Roles="dialog">
+    <div class="modal-dialog" Roles="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title"><i class="fa fa-address-card-o" aria-hidden="true"></i> New Meetings summary</h4>
+            </div>
+            <div class="modal-body">
+                @using (Ajax.BeginForm("CreateMeetings", "Project", null, new AjaxOptions() { HttpMethod = "POST", }, new { @class = "form-horizontal" }))
+                {
+                    @Html.AntiForgeryToken();
+                    @Html.HiddenFor(i => MeetingsViewModel.ProjectId)
+
+                    <div class="form-group">
+                        @Html.LabelFor(i => MeetingsViewModel.Agenda, new { @class = "col-sm-2 control-label" })
+                        <div class="col-sm-10">
+                            @Html.TextAreaFor(i => MeetingsViewModel.Agenda, new { @class = "form-control", placeholder = "Write your Agenda..", rows = "5", type = "text" })
+                            <span class="help-block">The Agenda</span>
+                            @Html.ValidationMessageFor(i => MeetingsViewModel.Agenda)
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(i => MeetingsViewModel.Actions, new { @class = "col-sm-2 control-label" })
+                        <div class="col-sm-10">
+                            @Html.TextAreaFor(i => MeetingsViewModel.Actions, new { @class = "form-control", placeholder = "Write your Actions..", rows = "5", type = "text" })
+                            <span class="help-block">The Actions</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(i => MeetingsViewModel.Date, new { @class = "col-sm-2 control-label" })
+                        <div class="col-sm-5">
+                            @Html.TextBoxFor(i => MeetingsViewModel.Date, new { @class = "form-control", placeholder = "Due date", type = "date" })
+                            <span class="help-block">The date Meetings</span>
+                            @Html.ValidationMessageFor(i => MeetingsViewModel.Date)
+                        </div>
+                        @*<div class="col-sm-5">
+                                @Html.TextBoxFor(i => MeetingsViewModel.Date, new { @class = "form-control", placeholder = "Hour Meetings", type = "time" })
+                                <span class="help-block">HourMeetings</span>
+                                @Html.ValidationMessageFor(i => MeetingsViewModel.Date)
+                            </div>*@
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(i => MeetingsViewModel.Members, new { @class = "col-sm-2 control-label" })
+                        <div class="col-sm-10">
+                            @Html.TextAreaFor(i => MeetingsViewModel.Members, new { @class = "form-control", placeholder = "Write members..", rows = "5", type = "text" })
+                            <span class="help-block">The Agenda</span>
+                            @Html.ValidationMessageFor(i => MeetingsViewModel.Agenda)
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(i => MeetingsViewModel.Location, new { @class = "col-sm-2 control-label" })
+                        <div class="col-sm-10">
+                            @Html.TextBoxFor(i => MeetingsViewModel.Location, new { @class = "form-control", placeholder = "Location", type = "text" })
+                            <span class="help-block">Location Meetings</span>
+                            @Html.ValidationMessageFor(i => MeetingsViewModel.Location)
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="modalContactsNew" tabindex="-1" Roles="dialog">
+    <div class="modal-dialog" Roles="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title"><i class="fa fa-address-card-o" aria-hidden="true"></i> New Contacts</h4>
+            </div>
+            <div class="modal-body">
+                @using (Ajax.BeginForm("CreateContacts", "Project", null, new AjaxOptions() { HttpMethod = "POST", }, new { @class = "form-horizontal" }))
+                {
+                    @Html.AntiForgeryToken();
+                    @Html.HiddenFor(i => ContactsViewModel.ProjectId)
+
+                    <div class="form-group">
+                        @Html.LabelFor(i => ContactsViewModel.Name, new { @class = "col-sm-2 control-label" })
+                        <div class="col-sm-10">
+                            @Html.TextBoxFor(i => ContactsViewModel.Name, new { @class = "form-control", placeholder = "Name" })
+                            <span class="help-block">The Contacts name</span>
+                            @Html.ValidationMessageFor(i => ContactsViewModel.Name)
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(i => ContactsViewModel.Company, new { @class = "col-sm-2 control-label" })
+                        <div class="col-sm-10">
+                            @Html.TextBoxFor(i => ContactsViewModel.Company, new { @class = "form-control", placeholder = "Company" })
+                            <span class="help-block">The Contacts company</span>
+                            @Html.ValidationMessageFor(i => ContactsViewModel.Company)
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(i => ContactsViewModel.Role, new { @class = "col-sm-2 control-label" })
+                        <div class="col-sm-10">
+                            @Html.TextBoxFor(i => ContactsViewModel.Role, new { @class = "form-control", placeholder = "Roles" })
+                            <span class="help-block">The Contacts Roles</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(i => ContactsViewModel.Email, new { @class = "col-sm-2 control-label" })
+                        <div class="col-sm-10">
+                            @Html.TextBoxFor(i => ContactsViewModel.Email, new { @class = "form-control", placeholder = "Email" })
+                            <span class="help-block">The Contacts email</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(i => ContactsViewModel.Phone, new { @class = "col-sm-2 control-label" })
+                        <div class="col-sm-10">
+                            @Html.TextBoxFor(i => ContactsViewModel.Phone, new { @class = "form-control", placeholder = "Phone" })
+                            <span class="help-block">The Contacts phone</span>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalToDoListsNew" tabindex="-1" Roles="dialog">
+    <div class="modal-dialog" Roles="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title"><i class="fa fa-list-alt" aria-hidden="true"></i>New To Do</h4>
+            </div>
+            <div class="modal-body">
+                @using (Ajax.BeginForm("CreateToDoLists", "Project", null, new AjaxOptions() { HttpMethod = "POST", }, new { @class = "form-horizontal" }))
+                {
+                    @Html.AntiForgeryToken();
+                    @Html.HiddenFor(i => ToDoListsViewModel.ProjectId)
+
+                    <div class="form-group">
+                        @Html.LabelFor(i => ToDoListsViewModel.Description, new { @class = "col-sm-2 control-label" })
+                        <div class="col-sm-10">
+                            @Html.TextAreaFor(i => ToDoListsViewModel.Description, new { @class = "form-control", placeholder = "Description..", rows = "5", type = "text" })
+                            <span class="help-block">The description</span>
+                            @Html.ValidationMessageFor(i => ToDoListsViewModel.Description)
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(i => ToDoListsViewModel.Date, new { @class = "col-sm-2 control-label" })
+                        <div class="col-sm-5">
+                            @Html.TextBoxFor(i => ToDoListsViewModel.Date, new { @class = "form-control", placeholder = "Due date", type = "date" })
+                            <span class="help-block">The due date</span>
+                            @Html.ValidationMessageFor(i => ToDoListsViewModel.Date)
+                        </div>
+                        @*<div class="col-sm-5">
+                                <input type="time" class="form-control" id="hour" placeholder="Hour">
+                                <span class="help-block">Hour</span>
+                            </div>*@
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <div class="checkbox">
+                                @*<label>
+                                        @Html.CheckBoxFor(i => ToDoListsViewModel.IsDone, new { type = "checkbox" })
+                                        <span class="help-block">is done</span>
+                                        @Html.ValidationMessageFor(i => ToDoListsViewModel.IsDone)
+                                    </label>*@
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

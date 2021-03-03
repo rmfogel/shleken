@@ -1,0 +1,210 @@
+﻿@{
+    ViewData["Title"] = "Statistics";
+}
+
+@section Title {
+    <h2><a href="@Url.Action("Index","Project",new {Projects=(@ViewBag.ProjectId)})">@ViewBag.ProjectsName.Name</a></h2> \
+}
+
+@section Sidebar {
+    @Html.Partial("ProjectSidebar")
+}
+
+@section TitleRight {
+
+}
+
+@section Script{
+
+    <script>
+        $(function () {
+            var year = new Date().getFullYear()
+
+           var users = [@Html.Raw(String.Join(",", ((List<string>)ViewBag.Users).Select(i => "'" + i + "'")))];
+             var hours= [@Html.Raw(String.Join(",", ((List<int>)ViewBag.Hours).Select(i => "'" + i + "'")))];
+             var incomes= [@Html.Raw(String.Join(",", ((List<int>)ViewBag.incomes).Select(i => "'" + i + "'")))];
+            var outcomes = [@Html.Raw(String.Join(",", ((List<int>)ViewBag.outcomes).Select(i => "'" + i + "'")))];
+            
+                var TasksChartData = {
+                    labels: ["", "", "", ""],
+                    datasets: [
+                        {
+                            label: 'Progress',
+                            backgroundColor: "#ccc",
+                            borderWidth: 1,
+                            data: [90, 80, 70, 60, 50, 80, 35, 95, 100, 85]
+                        },
+                        {
+                            label: 'Budget',
+                            backgroundColor: ["#eee", "#eee", "#eee", "#eee", "#f0ad4e", "#eee", "#d9534f", "#eee", "#eee", "#eee"],
+                            borderWidth: 1,
+                            data: [30, 20, 30, 40, 50, 60, 40, 80, 90, 65]
+                        }]
+                };
+
+                new Chart($("#Tasks"), {
+                    type: 'bar',
+                    data: TasksChartData,
+                    options: {
+                        legend: { position: "top" },
+                        responsive: true,
+                        title: {
+                            display: false,
+                            text: "Chart.js Bar Chart - Multi Axis"
+                        },
+                        scales: {
+                            yAxes: [{
+                                ticks: {
+                                    min: 0,
+                                    max: 100
+                                }
+                            }]
+                        }
+                    }
+                });
+           
+
+            var timesheetChartData = {
+                labels: [`Jan ${year}`, `Feb ${year}`, `Mar ${year}`, `Apr ${year}`, `May ${year}`, `Jun ${year}`, `Jul ${year}`, `Aug ${year}`, `Sep ${year}`, `Oct ${year}`, `Nov ${year}`, `Dec ${year}`],
+                datasets: [
+                //    {
+                //    label: 'Planned Hours',
+                //    backgroundColor: "#ccc",
+                //    borderWidth: 1,
+                //    data: [130, 120, 130, 140, 150]
+                //},
+                {
+                    label: 'Actual Hours',
+                    backgroundColor: ["#eee", "#eee", "#d9534f", "#f0ad4e", "#eee"],
+                        borderWidth: 1,
+                        data: hours
+                }]
+            };
+
+            new Chart($("#timesheet"), {
+                type: 'bar',
+                data: timesheetChartData,
+                options: {
+                    legend: { position: "top" },
+                    responsive: true,
+                    title: {
+                        display: false,
+                        text: "Chart.js Bar Chart - Multi Axis"
+                    },
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                min: 0,
+                                //max: 100
+                            }
+                        }]
+                    }
+                }
+            });
+
+            var resourcesChartData = {
+                labels: ["done","in progress","new"],
+                datasets: [{
+                    label: 'Resources',
+                    backgroundColor: ["#d9534f", "#f0ad4e", "#337ab7", "#5bc0de", "#5cb85c", "#777"],
+                    data: [@ViewBag.Status[0],@ViewBag.Status[1],@ViewBag.Status[2]]
+                }]
+            };
+
+            new Chart($("#resources"), {
+                type: 'pie',
+                data: resourcesChartData,
+                options: {
+                    legend: { position: "top" },
+                    responsive: true,
+                    title: {
+                        display: false,
+                        text: "Chart.js Bar Chart - Multi Axis"
+                    }
+                }
+            });
+
+            var budgetChartData = {
+                labels: [`Jan ${year}`, `Feb ${year}`, `Mar ${year}`, `Apr ${year}`, `May ${year}`, `Jun ${year}`, `Jul ${year}`, `Aug ${year}`, `Sep ${year}`, `Oct ${year}`, `Nov ${year}`, `Dec ${year}`],
+                datasets: [
+                    {
+                        label: 'Incomes',
+                        type: 'line',
+                        fill: false,
+                        pointBorderColor: "#5cb85c",
+                        backgroundColor: "#5cb85c",
+                        pointRadius: 4,
+                        borderWidth: 1,
+                        borderColor: "#5cb85c",
+                        data: incomes
+                    },
+                    {
+                        label: 'Outcom',
+                        type: 'line',
+                        fill: false,
+                        pointBorderColor: "#d9534f",
+                        backgroundColor: "#d9534f",
+                        pointRadius: 4,
+                        borderWidth: 1,
+                        borderColor: "#d9534f",
+                        data: outcomes
+                    }]
+            };
+
+            var chart = new Chart($("#budget"), {
+                type: 'bar',
+                data: budgetChartData,
+                options: {
+                    legend: { position: "top" },
+                    responsive: true,
+                    title: {
+                        display: false,
+                        text: "Chart.js Bar Chart - Multi Axis"
+                    },
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                min: 0
+                            }
+                        }]
+                    }
+                }
+            });
+        });
+    </script>
+}
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"><a href="~/1/Tasks"><i class="fa fa-Tasks" aria-hidden="true"></i> Tasks</a></h3>
+            </div>
+            <canvas id="Tasks" height="130"></canvas>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"><a href="~/1/timesheet"><i class="fa fa-Users" aria-hidden="true"></i> Teams</a></h3>
+            </div>
+            <canvas id="timesheet" height="130"></canvas>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"><a href="~/1/timesheet"><i class="fa fa-Users" aria-hidden="true"></i> Resources</a></h3>
+            </div>
+            <canvas id="resources" height="130"></canvas>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"><a href="~/1/timesheet"><i class="fa fa-usd" aria-hidden="true"></i> Budget</a></h3>
+            </div>
+            <canvas id="budget" height="130"></canvas>
+        </div>
+    </div>
+</div>

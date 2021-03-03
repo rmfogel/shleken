@@ -1,0 +1,159 @@
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Services\bin\Debug\Pajonos.Shleken.Services.dll.config
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Services\bin\Debug\Pajonos.Shleken.Services.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Services\bin\Debug\Pajonos.Shleken.Services.pdb
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Services\bin\Debug\Atlassian.Jira.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Services\bin\Debug\Newtonsoft.Json.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Services\bin\Debug\RestSharp.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.xml
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Services\bin\Debug\Newtonsoft.Json.xml
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.csproj.CoreCompileInputs.cache
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.csproj.CopyComplete
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.pdb
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Pajonos.Shleken.Services.dll.config
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Pajonos.Shleken.Services.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Pajonos.Shleken.Services.pdb
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Atlassian.Jira.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Newtonsoft.Json.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\RestSharp.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.xml
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Newtonsoft.Json.xml
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.csproj.CoreCompileInputs.cache
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.csproj.CopyComplete
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.pdb
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Shleken.mdf
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Shleken_log.ldf
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Shleken.mdf
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Shleken_log.ldf
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Atlassian.Jira.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\RestSharp.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.xml
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.csprojAssemblyReference.cache
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.csproj.CoreCompileInputs.cache
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.csproj.CopyComplete
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.pdb
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Pajonos.Shleken.Services.dll.config
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Pajonos.Shleken.Services.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Pajonos.Shleken.Services.pdb
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.csprojAssemblyReference.cache
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Shleken.mdf
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Shleken_log.ldf
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Pajonos.Shleken.Services.dll.config
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Pajonos.Shleken.Services.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Pajonos.Shleken.Services.pdb
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Atlassian.Jira.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Newtonsoft.Json.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\RestSharp.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.xml
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Newtonsoft.Json.xml
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.csprojAssemblyReference.cache
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.csproj.CoreCompileInputs.cache
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.csproj.CopyComplete
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.pdb
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Services\bin\Debug\Shleken.mdf
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Services\bin\Debug\Shleken_log.ldf
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Services\bin\Debug\Pajonos.Shleken.Services.dll.config
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Services\bin\Debug\Pajonos.Shleken.Services.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Services\bin\Debug\Pajonos.Shleken.Services.pdb
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Services\bin\Debug\Atlassian.Jira.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Services\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Services\bin\Debug\RestSharp.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.xml
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Services\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.csprojAssemblyReference.cache
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.csproj.CoreCompileInputs.cache
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.csproj.CopyComplete
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.pdb
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Shleken.mdf
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Shleken_log.ldf
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Pajonos.Shleken.Services.dll.config
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Pajonos.Shleken.Services.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Pajonos.Shleken.Services.pdb
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Atlassian.Jira.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Newtonsoft.Json.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\RestSharp.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.xml
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Newtonsoft.Json.xml
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.csprojAssemblyReference.cache
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.csproj.CoreCompileInputs.cache
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.csproj.CopyComplete
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.pdb
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Shleken.mdf
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Shleken_log.ldf
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Pajonos.Shleken.Services.dll.config
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Pajonos.Shleken.Services.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Pajonos.Shleken.Services.pdb
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Atlassian.Jira.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Newtonsoft.Json.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\RestSharp.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Services\bin\Debug\Newtonsoft.Json.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.csproj.CoreCompileInputs.cache
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.csproj.CopyComplete
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.pdb
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.csprojAssemblyReference.cache
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Services\bin\Debug\Shleken.mdf
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Services\bin\Debug\Shleken_log.ldf
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Services\bin\Debug\Pajonos.Shleken.Services.dll.config
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Services\bin\Debug\Pajonos.Shleken.Services.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Services\bin\Debug\Pajonos.Shleken.Services.pdb
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Services\bin\Debug\Atlassian.Jira.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Services\bin\Debug\Newtonsoft.Json.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Services\bin\Debug\RestSharp.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Services\bin\Debug\Newtonsoft.Json.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.csprojAssemblyReference.cache
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.csproj.CoreCompileInputs.cache
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.csproj.CopyComplete
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.pdb
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Services\bin\Debug\Shleken.mdf
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Services\bin\Debug\Shleken_log.ldf
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Services\bin\Debug\Pajonos.Shleken.Services.dll.config
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Services\bin\Debug\Pajonos.Shleken.Services.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Services\bin\Debug\Pajonos.Shleken.Services.pdb
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Services\bin\Debug\Atlassian.Jira.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Services\bin\Debug\Newtonsoft.Json.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Services\bin\Debug\RestSharp.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.xml
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Services\bin\Debug\Newtonsoft.Json.xml
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.csprojAssemblyReference.cache
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.csproj.CoreCompileInputs.cache
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.csproj.CopyComplete
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Services\obj\Debug\Pajonos.Shleken.Services.pdb

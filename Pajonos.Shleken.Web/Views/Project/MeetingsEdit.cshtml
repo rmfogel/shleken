@@ -1,0 +1,80 @@
+﻿
+@model Pajonos.Shleken.Services.Models.MeetingsViewModel
+
+@{
+    ViewBag.Title = "Edit Meetings";
+    Layout = "~/Views/Shared/_LayoutModal.cshtml";
+}
+
+
+
+<div class="container-fluid">
+    @using (Html.BeginForm("Meetingsave", "Project", FormMethod.Post, new { @class = "form-horizontal" }))
+    {
+        @Html.AntiForgeryToken()
+
+       
+            @Html.HiddenFor(model => model.Id)
+            @Html.HiddenFor(model => model.ProjectId)
+            @Html.HiddenFor(model => model.UserId)
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Subject, htmlAttributes: new { @class = "control-label col-sm-2" })
+                <div class="col-sm-10">
+                    @Html.EditorFor(model => model.Subject, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Agenda, htmlAttributes: new { @class = "control-label col-sm-2" })
+                <div class="col-sm-10">
+                    @Html.EditorFor(model => model.Agenda, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Agenda, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Actions, htmlAttributes: new { @class = "control-label col-sm-2" })
+                <div class="col-sm-10">
+                    @Html.EditorFor(model => model.Actions, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Actions, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Date, htmlAttributes: new { @class = "control-label col-sm-2" })
+                <div class="col-sm-10">
+                    @Html.EditorFor(model => model.Date, new { htmlAttributes = new { @class = "form-control", type = "date" } })
+                    @Html.ValidationMessageFor(model => model.Date, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Location, htmlAttributes: new { @class = "control-label col-sm-2" })
+                <div class="col-sm-10">
+                    @Html.EditorFor(model => model.Location, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Location, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Members, htmlAttributes: new { @class = "control-label col-sm-2" })
+                <div class="col-sm-10">
+                    @Html.EditorFor(model => model.Members, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Members, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <input type="submit" value="Save" class="btn btn-primary" />
+                    <button type="button" class="btn btn-default" data-popup-close>Cancel</button>
+                </div>
+            </div>
+
+     
+    }
+</div>

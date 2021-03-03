@@ -1,0 +1,2 @@
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.pdb

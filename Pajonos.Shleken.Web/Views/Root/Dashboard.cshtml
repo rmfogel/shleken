@@ -1,0 +1,84 @@
+﻿@model List<DashboardViewModel>
+@using Pajonos.Shleken.Services
+@using Pajonos.Shleken.Services.Models
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+
+
+
+
+@section Sidebar {
+    @Html.Partial("DashboardSidebar")
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Active Sprint</th>
+                    <th>Next Risks</th>
+                    <th>Projects Progress</th>
+                    <th>Hours Reported</th>
+                    <th>Budget</th>
+                    <th>Projects Success</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+
+                <tr>
+
+                    <td><a href="~/Projects/@(item.ProjectId)">@item.ProjectsName</a></td>
+                    <td>
+                        @*@(item.ClosedIssuesInActiveSprint * 100 / item.AllIssuesInActiveSprint )%*@
+                        <br />
+                        @(item.ClosedIssuesInActiveSprint)/@(item.AllIssuesInActiveSprint) Open Issues in Active Sprint
+                        <br />
+                        @(item.DateActiveSprint) Days Remainings
+                    </td>
+                    <td>
+                       @(item.NextRisks) Days
+                        <br />
+                        Owned by @(item.OwnerRisks)
+                        <br />
+                        @(item.Priority) Priority
+                    </td>
+                    <td>
+                        @(item.ClosestSprintPercentage)%
+                        <br />
+                        @(item.ClosestSprint)/@(item.CountSprint) Close Sprints (Jira)
+                        <br />
+                        @*@(item.OpenIsuues)*@ Active Issues (Jira)
+                    </td>
+                    <td>
+                        425
+                        <br />
+                        700 Total
+                        <br />
+                        125 Last Week
+                    </td>
+                    <td>
+                        @(item.OutcomesUntilNow)$
+                        <br />
+                       @(item.OutcomesTotal)$ Total
+                        <br />
+                        @(item.OuotcomeDiff)$ (@(item.DiffBudgetPercentage)%) Profit
+                    </td>
+                    <td>
+                        80%
+                        <br />
+                        70% Budget
+                        <br />
+                        90% Delivery
+                    </td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

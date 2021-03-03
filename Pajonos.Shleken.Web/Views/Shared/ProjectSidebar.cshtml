@@ -1,0 +1,50 @@
+﻿@using Pajonos.Shleken.Services
+@{
+    string controllerAction = ViewContext.RouteData.Values["Controller"].ToString() + ViewContext.RouteData.Values["Action"].ToString();
+}
+
+<ul class="nav">
+    
+    <li>
+        <a class="@(controllerAction == "ProjectIndex" ? "active" : "" ) nav-link" href="@Url.Action("Index","Project",new {Projects=(@ViewBag.ProjectId)})"><i class="fa fa-home fa-fw" aria-hidden="true"></i><span> Projects</span></a>
+    </li>
+    <li>
+        <a class="@(controllerAction == "ProjectTasks" ? "active" : "" ) nav-link" href="~/project/@(ViewBag.ProjectId)/Tasks"><i class="fa fa-tasks fa-fw" aria-hidden="true"></i><span> Tasks</span></a>
+    </li>
+    <li>
+        <a class="@(controllerAction == "ProjectTeams" ? "active" : "" ) nav-link" href="~/project/@(ViewBag.ProjectId)/Teams"><i class="fa fa-users fa-fw" aria-hidden="true"></i><span> Teams</span></a>
+    </li>
+    <li>
+        <a class="@(controllerAction == "ProjectRisks" ? "active" : "" ) nav-link" href="~/project/@(ViewBag.ProjectId)/Risks"><i class="fa fa-umbrella fa-fw" aria-hidden="true"></i><span> Risks</span></a>
+    </li>
+    <li>
+        <a class="@(controllerAction == "ProjectTimesheet" ? "active" : "" ) nav-link" href="~/project/@(ViewBag.ProjectId)/timesheet"><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i><span> Timesheet</span></a>
+    </li>
+    <li>
+        <a class="@(controllerAction == "ProjectBudget" ? "active" : "" ) nav-link" href="~/project/@(ViewBag.ProjectId)/budget"><i class="fa fa-usd fa-fw" aria-hidden="true"></i><span> Budget</span></a>
+    </li>
+    <li>
+        <a class="@(controllerAction == "ProjectActivities" ? "active" : "" ) nav-link" href="~/project/@(ViewBag.ProjectId)/activities"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i><span> Activities</span></a>
+    </li>
+    <li>
+        <a class="@(controllerAction == "ProjectToDoLists" ? "active" : "" ) nav-link" href="~/project/@(ViewBag.ProjectId)/ToDoLists"><i class="fa fa-list-alt fa-fw" aria-hidden="true"></i><span> To Do</span></a>
+    </li>
+    <li>
+        <a class="@(controllerAction == "ProjectFiles" ? "active" : "" ) nav-link" href="~/project/@(ViewBag.ProjectId)/Files"><i class="fa fa-file fa-fw" aria-hidden="true"></i><span> Files</span></a>
+    </li>
+    <li>
+        <a class="@(controllerAction == "ProjectMeetingsummery" ? "active" : "" ) nav-link" href="~/project/@(ViewBag.ProjectId)/Meetings"><i class="fa fa-users  fa-fw" aria-hidden="true"></i><span> Meetings</span></a>
+    </li>
+    <li>
+        <a class="@(controllerAction == "ProjectContact" ? "active" : "" ) nav-link" href="~/Contacts/@(ViewBag.ProjectId)/Contacts"><i class="fa fa-address-card-o  fa-fw" aria-hidden="true"></i><span> Contacts</span></a>
+    </li>
+    <li>
+        <a class="@(controllerAction == "ProjectStatistics" ? "active" : "" ) nav-link" href="~/project/@(ViewBag.ProjectId)/statistics"><i class="fa fa-bar-chart fa-fw" aria-hidden="true"></i><span> Statistics</span></a>
+    </li>
+    <li>
+        <a class="@(controllerAction == "ProjectSettings" ? "active" : "" ) nav-link" href="~/project/@(ViewBag.ProjectId)/settings"><i class="fa fa-cog fa-fw" aria-hidden="true"></i><span> Settings</span></a>
+    </li>
+    <li>
+        <a class="@(controllerAction == "ProjectUsers" ? "active" : "" ) nav-link" href="~/project/@(ViewBag.ProjectId)/users"><i class="fa fa-user fa-fw" aria-hidden="true"></i><span> Users</span></a>
+    </li>
+</ul>

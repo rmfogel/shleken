@@ -1,0 +1,83 @@
+﻿
+@model Pajonos.Shleken.Services.Models.OutcomesViewModel
+@using Pajonos.Shleken.Services
+@using Pajonos.Shleken.Services.Models
+@{
+    Layout = "~/Views/Shared/_LayoutModal.cshtml";
+    ViewBag.Title = "Edit Outcomes";
+}
+
+<div class="container-fluid">
+
+    @using (Html.BeginForm("Outcomesave", "projects", FormMethod.Post, new { @class = "form-horizontal" }))
+    {
+        @Html.AntiForgeryToken()
+
+
+        @Html.HiddenFor(model => model.Id)
+        @Html.HiddenFor(model => model.projectsId)
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Desination, htmlAttributes: new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.EditorFor(model => model.Desination, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Desination, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(i => Model.ApproverId, new { @class = "col-sm-2 control-label" })
+            <div class="col-sm-10">
+                @Html.DropDownListFor(i => Model.ApproverId, new SelectList(ViewBag.Users, "Id", "Name"), new { @class = "form-control" })
+                @Html.ValidationMessageFor(i => Model.ApproverId)
+            </div>
+        </div>
+
+        @*<div class="form-group">
+                @Html.LabelFor(model => model.ApproverId, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.ApproverId, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.ApproverId, "", new { @class = "text-danger" })
+                </div>
+            </div>*@
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Date, htmlAttributes: new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.EditorFor(model => model.Date, new { htmlAttributes = new { @class = "form-control", type = "date" } })
+                @Html.ValidationMessageFor(model => model.Date, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(i => Model.Cost, new { @class = "col-sm-2 control-label" })
+            <div class="col-sm-10">
+                <div class="input-group">
+                    @Html.TextBoxFor(i => Model.Cost, new { @class = "form-control", placeholder = "Cost", type = "taxt" })
+                    <span class="input-group-addon" id="dollarIncomes">$</span>
+                    @Html.ValidationMessageFor(i => Model.Cost)
+                </div>
+            </div>
+        </div>
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <input type="submit" value="Save" class="btn btn-primary" />
+                <button type="button" class="btn btn-default" data-popup-close>Cancel</button>
+            </div>
+        </div>
+
+    }
+
+</div>

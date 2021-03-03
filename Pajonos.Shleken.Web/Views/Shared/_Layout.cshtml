@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shleken - @ViewData["Title"]</title>
+
+    <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.5.1/fullcalendar.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body class="default-body">
+    @Html.Partial("Header")
+    <div class="container-fluid">
+        <div class="main">
+            <div class="left hidden-xs">
+                @RenderSection("Sidebar", required: false)
+            </div>
+            <div class="right">
+                <div class="row">
+                    <div class="col-md-4 col-xs-12 ">
+                        <div class="visible-xs pull-right">
+
+                            <div class="dropdown">
+                                <a class="btn btn-default" id="dropdownSidebarMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                                <ul class="dropdown-menu pull-right" aria-labelledby="dropdownSidebarMenu">
+                                    <li>
+                                        <a href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-Tasks" aria-hidden="true"></i> Tasks</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-umbrella" aria-hidden="true"></i> Risks</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> Timesheet</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-usd" aria-hidden="true"></i> Budget</a>
+                                    </li>
+                                    <li Roles="separator" class="divider"></li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-bar-chart" aria-hidden="true"></i> Statistics</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-cog" aria-hidden="true"></i> Settings</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="page-title">
+                            @RenderSection("Title", required: false)
+                            <h1><a href="@Context.Request.Path">@ViewData["Title"]</a></h1>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-xs-12">
+                        <div class="text-right title-right">
+                            @RenderSection("TitleRight", required: false)
+                        </div>
+                    </div>
+                </div>
+
+                @RenderBody()
+            </div>
+
+        </div>
+    </div>
+    <div style="height:40px;width:100%"></div>
+    <div style="bottom:-20px; margin:0 auto ;margin-top:10px;position:fixed; width:100%">
+        @Html.Partial("Footer")
+    </div>
+
+
+    <div class="modal fade"
+         id="modal" tabindex="-1" Roles="dialog">
+        <div class="modal-dialog modal-lg" Roles="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body">
+                    <iframe style="width:100%; height:800px;" frameborder="0" scrolling="auto"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.9/jquery.validate.unobtrusive.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.5.1/fullcalendar.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script>
+    <script src="~/js/site.js"></script>
+
+    @RenderSection("Script", required: false)
+</body>
+</html>

@@ -1,0 +1,130 @@
+﻿@using Pajonos.Shleken.Services
+@using Pajonos.Shleken.Services.Models
+@using System.Globalization;
+@model List<TeamsViewModel>
+@{
+    ViewData["Title"] = "Teams";
+
+    var year = DateTime.Now.Year;
+    var dateNow = DateTime.Now.AddMonths(-1);
+}
+
+@section Title {
+    <h2><a href="@Url.Action("Index","Project",new {Projects=(@ViewBag.ProjectId)})">@ViewBag.ProjectsName.Name</a></h2> \
+}
+
+@section TitleRight {
+    <strong>Projects Dates :  @ViewBag.ProjectsDate.StartDate.ToString("MMM", new CultureInfo("en-US")) @ViewBag.ProjectsDate.StartDate.Year  -  @ViewBag.ProjectsDate.EndDate.ToString("MMM",new CultureInfo("en-US"))  @ViewBag.ProjectsDate.EndDate.Year</strong>
+    <a href="javascript:" class="btn btn-default" data-toggle="modal" data-target="#modelResorcesNew"><i class="fa fa-list" aria-hidden="true"></i> Add Staff Member</a>
+    <button type="button" class="btn btn-primary @*btn btn-default*@" id="saveTeamsTable">Save</button>
+
+
+
+
+}
+
+@section Sidebar {
+    @Html.Partial("ProjectSidebar")
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-bordered" id="TeamsTable" data-Projects-month="@(ViewBag.DatesProjects.Count)" data-Projects-id="@(ViewBag.ProjectId)"data-date-now="@dateNow">
+            <thead>
+                <tr>
+                    <th>Roles</th>
+                    <th>Users</th>
+                    @foreach (var date in ViewBag.DatesProjects)
+                    {
+                        <th style="width:90px;" class="@(date.Date.AddMonths(1) < DateTime.Now ? "default" : "")">
+                            @(date.ToString("MMM", new CultureInfo("en-US"))) @(date.Year)
+                        </th>
+                    }
+                    <th style="width:90px;">TotalHours</th>
+                    <th style="width:90px;">TotalCost</th>
+                    <th style="width:1px"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="@(item.RolesName) Teams-row" data-price="@(item.Value)" data-id-item="@(item.Id)" data-Roles="@(item.RoleId)" data-Users-id="@(item.UserId)">
+                        <td class="Roles-name"> @(item.RolesName)</td>
+                        <td data-Users-id="@(item.UserId)">
+                            <a href="#">
+                                <div class="row">
+                                    <div class="col-md-10">@(item.Name)<br /><small>100</small></div>
+                                </div>
+                            </a>
+                        </td>
+                       @foreach (var i in item.AllHours)
+                        {
+                            <td class="@(i.Date.AddMonths(1) < DateTime.Now ? "default" : "")">
+                                <input data-date="@(i.Date)" @(i.Date.AddMonths(1) < DateTime.Now ? "disabled" : "") type="number" value="@i.Hour" data-id="@(i.Id)" min="0" class="Teams-input input-table-number" />
+                            </td>
+                        }
+                        <td class="total-hours"></td>
+                        <td class="total-cost"></td>
+                        <td> <a href="~/Project/@(ViewBag.ProjectId)/Teams/@(item.RoleId)/@(item.UserId)/delete" class="delete-item"><i class="glyphicon glyphicon-trash" aria-hidden="true"></i></a></td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+                <tr class="success strong sum-hours">
+                    <td>Total</td>
+                    <td class="cntUsers"></td>
+                    @foreach (var date in ViewBag.DatesProjects)
+                    {
+                        <td></td>
+                    }
+                    <td class="total-hours Teams-total-hours"></td>
+                    <td class="total-cost Teams-total-cost"></td>
+                    <td></td>
+                </tr>
+
+            </tfoot>
+        </table>
+    </div>
+    <div class="col-md-12">
+        @foreach (var item in ViewBag.AlertMore180Hours)
+        {
+        <div class="alert alert-warning alert-xs"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> @item.Name  attend to work more then specified hours in  @(item.Date.ToString("MMM", new CultureInfo("en-US"))) @item.Date.Year </div>
+        }
+        <div class="alert alert-danger alert-xs" @(ViewBag.Hours == true?"":"hidden")><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Total cost greater then Tasks total cost</div>
+        <div class="alert alert-danger alert-xs" @(ViewBag.Cost == true?"":"hidden")><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Total hours greater then Tasks total hours</div>
+      
+    </div>
+</div>
+
+
+<div class="modal fade modal" id="modelResorcesNew" tabindex="-1" Roles="dialog">
+    <div class="modal-dialog" Roles="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title"><i class="fa fa-Tasks" aria-hidden="true"></i> New Staff Member</h4>
+            </div>
+            <div class="modal-body">
+                <form id="TeamsForm">
+                    <div class="form-group">
+                        <label for="UsersName">Roles</label>
+                        @Html.DropDownList("Roleslist", new SelectList(ViewBag.Roles, "Id", "Name"), new { @class = "form-control" })
+                     
+                    </div>
+
+                    <div class="form-group">
+                        <label for="UsersName">Users Name</label>
+                        @Html.DropDownList("UsersName", new SelectList(ViewBag.Users, "Id", "Name"), new { @class = "form-control" })
+                
+                    </div>
+                    <div id="showAlert" style="color:red;"></div>
+                    <div class="modal-footer">
+                        <button type="button" id="cencelModel" class="btn btn-default" @*data-dismiss="modal"*@>Cancel</button>
+                        <button type="button" id="addResorces" @*data-dismiss="modal"*@ class="btn btn-primary">Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

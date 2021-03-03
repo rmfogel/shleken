@@ -1,0 +1,2087 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="ShlekenModel1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Accounts">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Activities">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Title" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Notes" Type="nvarchar" MaxLength="250" Nullable="false" />
+          <Property Name="Date" Type="datetime" Nullable="false" />
+          <Property Name="ProjectId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Contacts">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Role" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Company" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Phone" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="ProjectId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Files">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+          <Property Name="UserId" Type="int" Nullable="false" />
+          <Property Name="ProjectId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Fixes">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Description" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Value" Type="int" Nullable="false" />
+          <Property Name="ShowClient" Type="bit" Nullable="false" />
+          <Property Name="ProjectId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Globals">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Description" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Value" Type="int" Nullable="false" />
+          <Property Name="ShowClient" Type="bit" Nullable="false" />
+          <Property Name="ProjectId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Incomes">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Source" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="ApproverId" Type="int" Nullable="false" />
+          <Property Name="Date" Type="datetime" Nullable="false" />
+          <Property Name="Cost" Type="float" Nullable="false" />
+          <Property Name="ProjectId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Meetings">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Subject" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Date" Type="datetime" Nullable="false" />
+          <Property Name="Members" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Agenda" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Actions" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Location" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="UserId" Type="int" Nullable="false" />
+          <Property Name="ProjectId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Outcomes">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Desination" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Description" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="ApproverId" Type="int" Nullable="false" />
+          <Property Name="Date" Type="datetime" Nullable="false" />
+          <Property Name="Cost" Type="float" Nullable="false" />
+          <Property Name="ProjectId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Projects">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="AccountId" Type="int" Nullable="false" />
+          <Property Name="StartDate" Type="datetime" Nullable="false" />
+          <Property Name="EndDate" Type="datetime" Nullable="false" />
+          <Property Name="Status" Type="int" Nullable="false" />
+          <Property Name="Comments" Type="nvarchar(max)" />
+          <Property Name="TaskTotalCost" Type="float" Nullable="false" />
+          <Property Name="TaskTotalHours" Type="float" Nullable="false" />
+          <Property Name="TeamTotalHours" Type="float" Nullable="false" />
+          <Property Name="TeamTotalCost" Type="float" Nullable="false" />
+          <Property Name="JiraUrl" Type="nvarchar" MaxLength="50" />
+          <Property Name="JiraPassword" Type="nvarchar" MaxLength="50" />
+          <Property Name="JiraUserName" Type="nvarchar" MaxLength="50" />
+          <Property Name="JiraProjectkey" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="ProjectStatuses">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="RefUserPro">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserId" Type="int" Nullable="false" />
+          <Property Name="ProjecrId" Type="int" Nullable="false" />
+          <Property Name="IsOwner" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Resources">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="ShowClient" Type="bit" Nullable="false" />
+          <Property Name="ProjectId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="RiskPriorities">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="RiskProbabilities">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Risks">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Mitigations" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Priority" Type="int" Nullable="false" />
+          <Property Name="Probabilty" Type="int" Nullable="false" />
+          <Property Name="Budget" Type="bit" Nullable="false" />
+          <Property Name="Delivery" Type="bit" Nullable="false" />
+          <Property Name="Date" Type="datetime" Nullable="false" />
+          <Property Name="UserId" Type="int" Nullable="false" />
+          <Property Name="ProjectId" Type="int" Nullable="false" />
+          <Property Name="Status" Type="int" Nullable="false" />
+          <Property Name="Cost" Type="float" Nullable="false" />
+        </EntityType>
+        <EntityType Name="RiskStatuses">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="RoleResources">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="ProjectId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Roles">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="ProjectId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Tasks">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="ShowClient" Type="bit" Nullable="false" />
+          <Property Name="ProjectId" Type="int" Nullable="false" />
+          <Property Name="Status" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="TasksRoles">
+          <Key>
+            <PropertyRef Name="RoleId" />
+            <PropertyRef Name="TaskId" />
+          </Key>
+          <Property Name="RoleId" Type="int" Nullable="false" />
+          <Property Name="TaskId" Type="int" Nullable="false" />
+          <Property Name="Value" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Teams">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="RoleId" Type="int" Nullable="false" />
+          <Property Name="UserId" Type="int" Nullable="false" />
+          <Property Name="ProjectId" Type="int" Nullable="false" />
+          <Property Name="Date" Type="datetime" Nullable="false" />
+          <Property Name="Hours" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ToDoLists">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Date" Type="datetime" Nullable="false" />
+          <Property Name="IsDone" Type="int" Nullable="false" />
+          <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+          <Property Name="Userid" Type="int" Nullable="false" />
+          <Property Name="ProjectId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ToDoListStatuses">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="AccountId" Type="int" Nullable="false" />
+          <Property Name="Password" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK__RefUserPr__Proje__1BC821DD">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="RefUserPro" Type="Self.RefUserPro" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="RefUserPro">
+              <PropertyRef Name="ProjecrId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__RefUserPr__UserI__1AD3FDA4">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="RefUserPro" Type="Self.RefUserPro" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="RefUserPro">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Activities_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Activities" Type="Self.Activities" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Activities">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Contacts_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Contacts" Type="Self.Contacts" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Contacts">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Files_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Files" Type="Self.Files" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Files">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Files_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="Files" Type="Self.Files" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Files">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Fixes_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Fixes" Type="Self.Fixes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Fixes">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Globals_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Globals" Type="Self.Globals" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Globals">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Incomes_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Incomes" Type="Self.Incomes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Incomes">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Incomes_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="Incomes" Type="Self.Incomes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Incomes">
+              <PropertyRef Name="ApproverId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Meetings_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Meetings" Type="Self.Meetings" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Meetings">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Meetings_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="Meetings" Type="Self.Meetings" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Meetings">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Outcomes_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Outcomes" Type="Self.Outcomes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Outcomes">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Outcomes_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="Outcomes" Type="Self.Outcomes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Outcomes">
+              <PropertyRef Name="ApproverId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Projects_Accounts">
+          <End Role="Accounts" Type="Self.Accounts" Multiplicity="1" />
+          <End Role="Projects" Type="Self.Projects" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Accounts">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Projects">
+              <PropertyRef Name="AccountId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Projects_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Projects1" Type="Self.Projects" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Projects1">
+              <PropertyRef Name="Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Projects_ProjectStatuses">
+          <End Role="ProjectStatuses" Type="Self.ProjectStatuses" Multiplicity="1" />
+          <End Role="Projects" Type="Self.Projects" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ProjectStatuses">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Projects">
+              <PropertyRef Name="Status" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Resources_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Resources" Type="Self.Resources" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Resources">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Risks_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Risks" Type="Self.Risks" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Risks">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Risks_Projects1">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="Risks" Type="Self.Risks" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Risks">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Risks_RiskPriorities">
+          <End Role="RiskPriorities" Type="Self.RiskPriorities" Multiplicity="1" />
+          <End Role="Risks" Type="Self.Risks" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="RiskPriorities">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Risks">
+              <PropertyRef Name="Priority" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Risks_RiskProbabilities">
+          <End Role="RiskProbabilities" Type="Self.RiskProbabilities" Multiplicity="1" />
+          <End Role="Risks" Type="Self.Risks" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="RiskProbabilities">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Risks">
+              <PropertyRef Name="Probabilty" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Risks_RiskStatuses">
+          <End Role="RiskStatuses" Type="Self.RiskStatuses" Multiplicity="1" />
+          <End Role="Risks" Type="Self.Risks" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="RiskStatuses">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Risks">
+              <PropertyRef Name="Status" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_RoleResources_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="RoleResources" Type="Self.RoleResources" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="RoleResources">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Roles_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Roles" Type="Self.Roles" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Roles">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Tasks_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Tasks" Type="Self.Tasks" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Tasks">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TasksRoles_Roles">
+          <End Role="Roles" Type="Self.Roles" Multiplicity="1" />
+          <End Role="TasksRoles" Type="Self.TasksRoles" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Roles">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="TasksRoles">
+              <PropertyRef Name="RoleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TasksRoles_Tasks">
+          <End Role="Tasks" Type="Self.Tasks" Multiplicity="1" />
+          <End Role="TasksRoles" Type="Self.TasksRoles" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tasks">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="TasksRoles">
+              <PropertyRef Name="TaskId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Teams_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Teams" Type="Self.Teams" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Teams">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Teams_Roles">
+          <End Role="Roles" Type="Self.Roles" Multiplicity="1" />
+          <End Role="Teams" Type="Self.Teams" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Roles">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Teams">
+              <PropertyRef Name="RoleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Teams_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="Teams" Type="Self.Teams" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Teams">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ToDoLists_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="ToDoLists" Type="Self.ToDoLists" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ToDoLists">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ToDoLists_ToDoListStatuses">
+          <End Role="ToDoListStatuses" Type="Self.ToDoListStatuses" Multiplicity="1" />
+          <End Role="ToDoLists" Type="Self.ToDoLists" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ToDoListStatuses">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ToDoLists">
+              <PropertyRef Name="IsDone" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ToDoLists_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="ToDoLists" Type="Self.ToDoLists" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ToDoLists">
+              <PropertyRef Name="Userid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Users_Accounts">
+          <End Role="Accounts" Type="Self.Accounts" Multiplicity="1" />
+          <End Role="Users" Type="Self.Users" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Accounts">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Users">
+              <PropertyRef Name="AccountId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ShlekenModel1StoreContainer">
+          <EntitySet Name="Accounts" EntityType="Self.Accounts" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Activities" EntityType="Self.Activities" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Contacts" EntityType="Self.Contacts" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Files" EntityType="Self.Files" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Fixes" EntityType="Self.Fixes" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Globals" EntityType="Self.Globals" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Incomes" EntityType="Self.Incomes" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Meetings" EntityType="Self.Meetings" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Outcomes" EntityType="Self.Outcomes" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Projects" EntityType="Self.Projects" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ProjectStatuses" EntityType="Self.ProjectStatuses" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="RefUserPro" EntityType="Self.RefUserPro" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Resources" EntityType="Self.Resources" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="RiskPriorities" EntityType="Self.RiskPriorities" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="RiskProbabilities" EntityType="Self.RiskProbabilities" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Risks" EntityType="Self.Risks" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="RiskStatuses" EntityType="Self.RiskStatuses" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="RoleResources" EntityType="Self.RoleResources" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Roles" EntityType="Self.Roles" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Tasks" EntityType="Self.Tasks" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TasksRoles" EntityType="Self.TasksRoles" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Teams" EntityType="Self.Teams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ToDoLists" EntityType="Self.ToDoLists" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ToDoListStatuses" EntityType="Self.ToDoListStatuses" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__RefUserPr__Proje__1BC821DD" Association="Self.FK__RefUserPr__Proje__1BC821DD">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="RefUserPro" EntitySet="RefUserPro" />
+          </AssociationSet>
+          <AssociationSet Name="FK__RefUserPr__UserI__1AD3FDA4" Association="Self.FK__RefUserPr__UserI__1AD3FDA4">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="RefUserPro" EntitySet="RefUserPro" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Activities_Projects" Association="Self.FK_Activities_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Activities" EntitySet="Activities" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Contacts_Projects" Association="Self.FK_Contacts_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Contacts" EntitySet="Contacts" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Files_Projects" Association="Self.FK_Files_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Files" EntitySet="Files" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Files_Users" Association="Self.FK_Files_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Files" EntitySet="Files" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Fixes_Projects" Association="Self.FK_Fixes_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Fixes" EntitySet="Fixes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Globals_Projects" Association="Self.FK_Globals_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Globals" EntitySet="Globals" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Incomes_Projects" Association="Self.FK_Incomes_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Incomes" EntitySet="Incomes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Incomes_Users" Association="Self.FK_Incomes_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Incomes" EntitySet="Incomes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Meetings_Projects" Association="Self.FK_Meetings_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Meetings" EntitySet="Meetings" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Meetings_Users" Association="Self.FK_Meetings_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Meetings" EntitySet="Meetings" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Outcomes_Projects" Association="Self.FK_Outcomes_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Outcomes" EntitySet="Outcomes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Outcomes_Users" Association="Self.FK_Outcomes_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Outcomes" EntitySet="Outcomes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Projects_Accounts" Association="Self.FK_Projects_Accounts">
+            <End Role="Accounts" EntitySet="Accounts" />
+            <End Role="Projects" EntitySet="Projects" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Projects_Projects" Association="Self.FK_Projects_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Projects1" EntitySet="Projects" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Projects_ProjectStatuses" Association="Self.FK_Projects_ProjectStatuses">
+            <End Role="ProjectStatuses" EntitySet="ProjectStatuses" />
+            <End Role="Projects" EntitySet="Projects" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Resources_Projects" Association="Self.FK_Resources_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Resources" EntitySet="Resources" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Risks_Projects" Association="Self.FK_Risks_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Risks" EntitySet="Risks" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Risks_Projects1" Association="Self.FK_Risks_Projects1">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Risks" EntitySet="Risks" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Risks_RiskPriorities" Association="Self.FK_Risks_RiskPriorities">
+            <End Role="RiskPriorities" EntitySet="RiskPriorities" />
+            <End Role="Risks" EntitySet="Risks" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Risks_RiskProbabilities" Association="Self.FK_Risks_RiskProbabilities">
+            <End Role="RiskProbabilities" EntitySet="RiskProbabilities" />
+            <End Role="Risks" EntitySet="Risks" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Risks_RiskStatuses" Association="Self.FK_Risks_RiskStatuses">
+            <End Role="RiskStatuses" EntitySet="RiskStatuses" />
+            <End Role="Risks" EntitySet="Risks" />
+          </AssociationSet>
+          <AssociationSet Name="FK_RoleResources_Projects" Association="Self.FK_RoleResources_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="RoleResources" EntitySet="RoleResources" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Roles_Projects" Association="Self.FK_Roles_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Roles" EntitySet="Roles" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Tasks_Projects" Association="Self.FK_Tasks_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Tasks" EntitySet="Tasks" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TasksRoles_Roles" Association="Self.FK_TasksRoles_Roles">
+            <End Role="Roles" EntitySet="Roles" />
+            <End Role="TasksRoles" EntitySet="TasksRoles" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TasksRoles_Tasks" Association="Self.FK_TasksRoles_Tasks">
+            <End Role="Tasks" EntitySet="Tasks" />
+            <End Role="TasksRoles" EntitySet="TasksRoles" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Teams_Projects" Association="Self.FK_Teams_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Teams" EntitySet="Teams" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Teams_Roles" Association="Self.FK_Teams_Roles">
+            <End Role="Roles" EntitySet="Roles" />
+            <End Role="Teams" EntitySet="Teams" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Teams_Users" Association="Self.FK_Teams_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Teams" EntitySet="Teams" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ToDoLists_Projects" Association="Self.FK_ToDoLists_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="ToDoLists" EntitySet="ToDoLists" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ToDoLists_ToDoListStatuses" Association="Self.FK_ToDoLists_ToDoListStatuses">
+            <End Role="ToDoListStatuses" EntitySet="ToDoListStatuses" />
+            <End Role="ToDoLists" EntitySet="ToDoLists" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ToDoLists_Users" Association="Self.FK_ToDoLists_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="ToDoLists" EntitySet="ToDoLists" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Users_Accounts" Association="Self.FK_Users_Accounts">
+            <End Role="Accounts" EntitySet="Accounts" />
+            <End Role="Users" EntitySet="Users" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ShlekenModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Accounts">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Projects" Relationship="Self.FK_Projects_Accounts" FromRole="Accounts" ToRole="Projects" />
+          <NavigationProperty Name="Users" Relationship="Self.FK_Users_Accounts" FromRole="Accounts" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="Activities">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Notes" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="ProjectId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Projects" Relationship="Self.FK_Activities_Projects" FromRole="Activities" ToRole="Projects" />
+        </EntityType>
+        <EntityType Name="Contacts">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Role" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Company" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ProjectId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Projects" Relationship="Self.FK_Contacts_Projects" FromRole="Contacts" ToRole="Projects" />
+        </EntityType>
+        <EntityType Name="Files">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <Property Name="ProjectId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Projects" Relationship="Self.FK_Files_Projects" FromRole="Files" ToRole="Projects" />
+          <NavigationProperty Name="Users" Relationship="Self.FK_Files_Users" FromRole="Files" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="Fixes">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Value" Type="Int32" Nullable="false" />
+          <Property Name="ShowClient" Type="Boolean" Nullable="false" />
+          <Property Name="ProjectId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Projects" Relationship="Self.FK_Fixes_Projects" FromRole="Fixes" ToRole="Projects" />
+        </EntityType>
+        <EntityType Name="Globals">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Value" Type="Int32" Nullable="false" />
+          <Property Name="ShowClient" Type="Boolean" Nullable="false" />
+          <Property Name="ProjectId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Projects" Relationship="Self.FK_Globals_Projects" FromRole="Globals" ToRole="Projects" />
+        </EntityType>
+        <EntityType Name="Incomes">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Source" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ApproverId" Type="Int32" Nullable="false" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Cost" Type="Double" Nullable="false" />
+          <Property Name="ProjectId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Projects" Relationship="Self.FK_Incomes_Projects" FromRole="Incomes" ToRole="Projects" />
+          <NavigationProperty Name="Users" Relationship="Self.FK_Incomes_Users" FromRole="Incomes" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="Meetings">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Subject" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Members" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Agenda" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Actions" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Location" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <Property Name="ProjectId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Projects" Relationship="Self.FK_Meetings_Projects" FromRole="Meetings" ToRole="Projects" />
+          <NavigationProperty Name="Users" Relationship="Self.FK_Meetings_Users" FromRole="Meetings" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="Outcomes">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Desination" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ApproverId" Type="Int32" Nullable="false" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Cost" Type="Double" Nullable="false" />
+          <Property Name="ProjectId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Projects" Relationship="Self.FK_Outcomes_Projects" FromRole="Outcomes" ToRole="Projects" />
+          <NavigationProperty Name="Users" Relationship="Self.FK_Outcomes_Users" FromRole="Outcomes" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="Projects">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="AccountId" Type="Int32" Nullable="false" />
+          <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="EndDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Status" Type="Int32" Nullable="false" />
+          <Property Name="Comments" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="TaskTotalCost" Type="Double" Nullable="false" />
+          <Property Name="TaskTotalHours" Type="Double" Nullable="false" />
+          <Property Name="TeamTotalHours" Type="Double" Nullable="false" />
+          <Property Name="TeamTotalCost" Type="Double" Nullable="false" />
+          <Property Name="JiraUrl" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="JiraPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="JiraUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="JiraProjectkey" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Accounts" Relationship="Self.FK_Projects_Accounts" FromRole="Projects" ToRole="Accounts" />
+          <NavigationProperty Name="Activities" Relationship="Self.FK_Activities_Projects" FromRole="Projects" ToRole="Activities" />
+          <NavigationProperty Name="Contacts" Relationship="Self.FK_Contacts_Projects" FromRole="Projects" ToRole="Contacts" />
+          <NavigationProperty Name="Files" Relationship="Self.FK_Files_Projects" FromRole="Projects" ToRole="Files" />
+          <NavigationProperty Name="Fixes" Relationship="Self.FK_Fixes_Projects" FromRole="Projects" ToRole="Fixes" />
+          <NavigationProperty Name="Globals" Relationship="Self.FK_Globals_Projects" FromRole="Projects" ToRole="Globals" />
+          <NavigationProperty Name="Incomes" Relationship="Self.FK_Incomes_Projects" FromRole="Projects" ToRole="Incomes" />
+          <NavigationProperty Name="Meetings" Relationship="Self.FK_Meetings_Projects" FromRole="Projects" ToRole="Meetings" />
+          <NavigationProperty Name="Outcomes" Relationship="Self.FK_Outcomes_Projects" FromRole="Projects" ToRole="Outcomes" />
+          <NavigationProperty Name="RefUserPro" Relationship="Self.FK__RefUserPr__Proje__1BC821DD" FromRole="Projects" ToRole="RefUserPro" />
+          <NavigationProperty Name="Projects1" Relationship="Self.FK_Projects_Projects" FromRole="Projects" ToRole="Projects1" />
+          <NavigationProperty Name="Projects2" Relationship="Self.FK_Projects_Projects" FromRole="Projects1" ToRole="Projects" />
+          <NavigationProperty Name="ProjectStatuses" Relationship="Self.FK_Projects_ProjectStatuses" FromRole="Projects" ToRole="ProjectStatuses" />
+          <NavigationProperty Name="Resources" Relationship="Self.FK_Resources_Projects" FromRole="Projects" ToRole="Resources" />
+          <NavigationProperty Name="Risks" Relationship="Self.FK_Risks_Projects" FromRole="Projects" ToRole="Risks" />
+          <NavigationProperty Name="RoleResources" Relationship="Self.FK_RoleResources_Projects" FromRole="Projects" ToRole="RoleResources" />
+          <NavigationProperty Name="Roles" Relationship="Self.FK_Roles_Projects" FromRole="Projects" ToRole="Roles" />
+          <NavigationProperty Name="Tasks" Relationship="Self.FK_Tasks_Projects" FromRole="Projects" ToRole="Tasks" />
+          <NavigationProperty Name="Teams" Relationship="Self.FK_Teams_Projects" FromRole="Projects" ToRole="Teams" />
+          <NavigationProperty Name="ToDoLists" Relationship="Self.FK_ToDoLists_Projects" FromRole="Projects" ToRole="ToDoLists" />
+        </EntityType>
+        <EntityType Name="ProjectStatuses">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Projects" Relationship="Self.FK_Projects_ProjectStatuses" FromRole="ProjectStatuses" ToRole="Projects" />
+        </EntityType>
+        <EntityType Name="RefUserPro">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <Property Name="ProjecrId" Type="Int32" Nullable="false" />
+          <Property Name="IsOwner" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="Projects" Relationship="Self.FK__RefUserPr__Proje__1BC821DD" FromRole="RefUserPro" ToRole="Projects" />
+          <NavigationProperty Name="Users" Relationship="Self.FK__RefUserPr__UserI__1AD3FDA4" FromRole="RefUserPro" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="Resources">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ShowClient" Type="Boolean" Nullable="false" />
+          <Property Name="ProjectId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Projects" Relationship="Self.FK_Resources_Projects" FromRole="Resources" ToRole="Projects" />
+        </EntityType>
+        <EntityType Name="RiskPriorities">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Risks" Relationship="Self.FK_Risks_RiskPriorities" FromRole="RiskPriorities" ToRole="Risks" />
+        </EntityType>
+        <EntityType Name="RiskProbabilities">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Risks" Relationship="Self.FK_Risks_RiskProbabilities" FromRole="RiskProbabilities" ToRole="Risks" />
+        </EntityType>
+        <EntityType Name="Risks">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Mitigations" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Priority" Type="Int32" Nullable="false" />
+          <Property Name="Probabilty" Type="Int32" Nullable="false" />
+          <Property Name="Budget" Type="Boolean" Nullable="false" />
+          <Property Name="Delivery" Type="Boolean" Nullable="false" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <Property Name="ProjectId" Type="Int32" Nullable="false" />
+          <Property Name="Status" Type="Int32" Nullable="false" />
+          <Property Name="Cost" Type="Double" Nullable="false" />
+          <NavigationProperty Name="Projects" Relationship="Self.FK_Risks_Projects" FromRole="Risks" ToRole="Projects" />
+          <NavigationProperty Name="RiskPriorities" Relationship="Self.FK_Risks_RiskPriorities" FromRole="Risks" ToRole="RiskPriorities" />
+          <NavigationProperty Name="RiskProbabilities" Relationship="Self.FK_Risks_RiskProbabilities" FromRole="Risks" ToRole="RiskProbabilities" />
+          <NavigationProperty Name="Users" Relationship="Self.FK_Risks_Projects1" FromRole="Risks" ToRole="Users" />
+          <NavigationProperty Name="RiskStatuses" Relationship="Self.FK_Risks_RiskStatuses" FromRole="Risks" ToRole="RiskStatuses" />
+        </EntityType>
+        <EntityType Name="RiskStatuses">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Risks" Relationship="Self.FK_Risks_RiskStatuses" FromRole="RiskStatuses" ToRole="Risks" />
+        </EntityType>
+        <EntityType Name="RoleResources">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ProjectId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Projects" Relationship="Self.FK_RoleResources_Projects" FromRole="RoleResources" ToRole="Projects" />
+        </EntityType>
+        <EntityType Name="Roles">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ProjectId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Projects" Relationship="Self.FK_Roles_Projects" FromRole="Roles" ToRole="Projects" />
+          <NavigationProperty Name="TasksRoles" Relationship="Self.FK_TasksRoles_Roles" FromRole="Roles" ToRole="TasksRoles" />
+          <NavigationProperty Name="Teams" Relationship="Self.FK_Teams_Roles" FromRole="Roles" ToRole="Teams" />
+        </EntityType>
+        <EntityType Name="Tasks">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ShowClient" Type="Boolean" Nullable="false" />
+          <Property Name="ProjectId" Type="Int32" Nullable="false" />
+          <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Projects" Relationship="Self.FK_Tasks_Projects" FromRole="Tasks" ToRole="Projects" />
+          <NavigationProperty Name="TasksRoles" Relationship="Self.FK_TasksRoles_Tasks" FromRole="Tasks" ToRole="TasksRoles" />
+        </EntityType>
+        <EntityType Name="TasksRoles">
+          <Key>
+            <PropertyRef Name="RoleId" />
+            <PropertyRef Name="TaskId" />
+          </Key>
+          <Property Name="RoleId" Type="Int32" Nullable="false" />
+          <Property Name="TaskId" Type="Int32" Nullable="false" />
+          <Property Name="Value" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Roles" Relationship="Self.FK_TasksRoles_Roles" FromRole="TasksRoles" ToRole="Roles" />
+          <NavigationProperty Name="Tasks" Relationship="Self.FK_TasksRoles_Tasks" FromRole="TasksRoles" ToRole="Tasks" />
+        </EntityType>
+        <EntityType Name="Teams">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="RoleId" Type="Int32" Nullable="false" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <Property Name="ProjectId" Type="Int32" Nullable="false" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Hours" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Projects" Relationship="Self.FK_Teams_Projects" FromRole="Teams" ToRole="Projects" />
+          <NavigationProperty Name="Roles" Relationship="Self.FK_Teams_Roles" FromRole="Teams" ToRole="Roles" />
+          <NavigationProperty Name="Users" Relationship="Self.FK_Teams_Users" FromRole="Teams" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="ToDoLists">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="IsDone" Type="Int32" Nullable="false" />
+          <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Userid" Type="Int32" Nullable="false" />
+          <Property Name="ProjectId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Projects" Relationship="Self.FK_ToDoLists_Projects" FromRole="ToDoLists" ToRole="Projects" />
+          <NavigationProperty Name="ToDoListStatuses" Relationship="Self.FK_ToDoLists_ToDoListStatuses" FromRole="ToDoLists" ToRole="ToDoListStatuses" />
+          <NavigationProperty Name="Users" Relationship="Self.FK_ToDoLists_Users" FromRole="ToDoLists" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="ToDoListStatuses">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="ToDoLists" Relationship="Self.FK_ToDoLists_ToDoListStatuses" FromRole="ToDoListStatuses" ToRole="ToDoLists" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="AccountId" Type="Int32" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Accounts" Relationship="Self.FK_Users_Accounts" FromRole="Users" ToRole="Accounts" />
+          <NavigationProperty Name="Files" Relationship="Self.FK_Files_Users" FromRole="Users" ToRole="Files" />
+          <NavigationProperty Name="Incomes" Relationship="Self.FK_Incomes_Users" FromRole="Users" ToRole="Incomes" />
+          <NavigationProperty Name="Meetings" Relationship="Self.FK_Meetings_Users" FromRole="Users" ToRole="Meetings" />
+          <NavigationProperty Name="Outcomes" Relationship="Self.FK_Outcomes_Users" FromRole="Users" ToRole="Outcomes" />
+          <NavigationProperty Name="RefUserPro" Relationship="Self.FK__RefUserPr__UserI__1AD3FDA4" FromRole="Users" ToRole="RefUserPro" />
+          <NavigationProperty Name="Risks" Relationship="Self.FK_Risks_Projects1" FromRole="Users" ToRole="Risks" />
+          <NavigationProperty Name="Teams" Relationship="Self.FK_Teams_Users" FromRole="Users" ToRole="Teams" />
+          <NavigationProperty Name="ToDoLists" Relationship="Self.FK_ToDoLists_Users" FromRole="Users" ToRole="ToDoLists" />
+        </EntityType>
+        <Association Name="FK_Projects_Accounts">
+          <End Role="Accounts" Type="Self.Accounts" Multiplicity="1" />
+          <End Role="Projects" Type="Self.Projects" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Accounts">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Projects">
+              <PropertyRef Name="AccountId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Users_Accounts">
+          <End Role="Accounts" Type="Self.Accounts" Multiplicity="1" />
+          <End Role="Users" Type="Self.Users" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Accounts">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Users">
+              <PropertyRef Name="AccountId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Activities_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Activities" Type="Self.Activities" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Activities">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Contacts_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Contacts" Type="Self.Contacts" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Contacts">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Files_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Files" Type="Self.Files" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Files">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Files_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="Files" Type="Self.Files" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Files">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Fixes_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Fixes" Type="Self.Fixes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Fixes">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Globals_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Globals" Type="Self.Globals" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Globals">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Incomes_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Incomes" Type="Self.Incomes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Incomes">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Incomes_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="Incomes" Type="Self.Incomes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Incomes">
+              <PropertyRef Name="ApproverId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Meetings_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Meetings" Type="Self.Meetings" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Meetings">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Meetings_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="Meetings" Type="Self.Meetings" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Meetings">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Outcomes_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Outcomes" Type="Self.Outcomes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Outcomes">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Outcomes_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="Outcomes" Type="Self.Outcomes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Outcomes">
+              <PropertyRef Name="ApproverId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__RefUserPr__Proje__1BC821DD">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="RefUserPro" Type="Self.RefUserPro" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="RefUserPro">
+              <PropertyRef Name="ProjecrId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Projects_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Projects1" Type="Self.Projects" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Projects1">
+              <PropertyRef Name="Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Projects_ProjectStatuses">
+          <End Role="ProjectStatuses" Type="Self.ProjectStatuses" Multiplicity="1" />
+          <End Role="Projects" Type="Self.Projects" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ProjectStatuses">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Projects">
+              <PropertyRef Name="Status" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Resources_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Resources" Type="Self.Resources" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Resources">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Risks_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Risks" Type="Self.Risks" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Risks">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_RoleResources_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="RoleResources" Type="Self.RoleResources" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="RoleResources">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Roles_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Roles" Type="Self.Roles" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Roles">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Tasks_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Tasks" Type="Self.Tasks" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Tasks">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Teams_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Teams" Type="Self.Teams" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Teams">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ToDoLists_Projects">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="ToDoLists" Type="Self.ToDoLists" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ToDoLists">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__RefUserPr__UserI__1AD3FDA4">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="RefUserPro" Type="Self.RefUserPro" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="RefUserPro">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Risks_RiskPriorities">
+          <End Role="RiskPriorities" Type="Self.RiskPriorities" Multiplicity="1" />
+          <End Role="Risks" Type="Self.Risks" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="RiskPriorities">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Risks">
+              <PropertyRef Name="Priority" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Risks_RiskProbabilities">
+          <End Role="RiskProbabilities" Type="Self.RiskProbabilities" Multiplicity="1" />
+          <End Role="Risks" Type="Self.Risks" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="RiskProbabilities">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Risks">
+              <PropertyRef Name="Probabilty" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Risks_Projects1">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="Risks" Type="Self.Risks" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Risks">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Risks_RiskStatuses">
+          <End Role="RiskStatuses" Type="Self.RiskStatuses" Multiplicity="1" />
+          <End Role="Risks" Type="Self.Risks" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="RiskStatuses">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Risks">
+              <PropertyRef Name="Status" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TasksRoles_Roles">
+          <End Role="Roles" Type="Self.Roles" Multiplicity="1" />
+          <End Role="TasksRoles" Type="Self.TasksRoles" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Roles">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="TasksRoles">
+              <PropertyRef Name="RoleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Teams_Roles">
+          <End Role="Roles" Type="Self.Roles" Multiplicity="1" />
+          <End Role="Teams" Type="Self.Teams" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Roles">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Teams">
+              <PropertyRef Name="RoleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TasksRoles_Tasks">
+          <End Role="Tasks" Type="Self.Tasks" Multiplicity="1" />
+          <End Role="TasksRoles" Type="Self.TasksRoles" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tasks">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="TasksRoles">
+              <PropertyRef Name="TaskId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Teams_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="Teams" Type="Self.Teams" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Teams">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ToDoLists_ToDoListStatuses">
+          <End Role="ToDoListStatuses" Type="Self.ToDoListStatuses" Multiplicity="1" />
+          <End Role="ToDoLists" Type="Self.ToDoLists" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ToDoListStatuses">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ToDoLists">
+              <PropertyRef Name="IsDone" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ToDoLists_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="ToDoLists" Type="Self.ToDoLists" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ToDoLists">
+              <PropertyRef Name="Userid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ShlekenEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Accounts" EntityType="Self.Accounts" />
+          <EntitySet Name="Activities" EntityType="Self.Activities" />
+          <EntitySet Name="Contacts" EntityType="Self.Contacts" />
+          <EntitySet Name="Files" EntityType="Self.Files" />
+          <EntitySet Name="Fixes" EntityType="Self.Fixes" />
+          <EntitySet Name="Globals" EntityType="Self.Globals" />
+          <EntitySet Name="Incomes" EntityType="Self.Incomes" />
+          <EntitySet Name="Meetings" EntityType="Self.Meetings" />
+          <EntitySet Name="Outcomes" EntityType="Self.Outcomes" />
+          <EntitySet Name="Projects" EntityType="Self.Projects" />
+          <EntitySet Name="ProjectStatuses" EntityType="Self.ProjectStatuses" />
+          <EntitySet Name="RefUserPro" EntityType="Self.RefUserPro" />
+          <EntitySet Name="Resources" EntityType="Self.Resources" />
+          <EntitySet Name="RiskPriorities" EntityType="Self.RiskPriorities" />
+          <EntitySet Name="RiskProbabilities" EntityType="Self.RiskProbabilities" />
+          <EntitySet Name="Risks" EntityType="Self.Risks" />
+          <EntitySet Name="RiskStatuses" EntityType="Self.RiskStatuses" />
+          <EntitySet Name="RoleResources" EntityType="Self.RoleResources" />
+          <EntitySet Name="Roles" EntityType="Self.Roles" />
+          <EntitySet Name="Tasks" EntityType="Self.Tasks" />
+          <EntitySet Name="TasksRoles" EntityType="Self.TasksRoles" />
+          <EntitySet Name="Teams" EntityType="Self.Teams" />
+          <EntitySet Name="ToDoLists" EntityType="Self.ToDoLists" />
+          <EntitySet Name="ToDoListStatuses" EntityType="Self.ToDoListStatuses" />
+          <EntitySet Name="Users" EntityType="Self.Users" />
+          <AssociationSet Name="FK_Projects_Accounts" Association="Self.FK_Projects_Accounts">
+            <End Role="Accounts" EntitySet="Accounts" />
+            <End Role="Projects" EntitySet="Projects" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Users_Accounts" Association="Self.FK_Users_Accounts">
+            <End Role="Accounts" EntitySet="Accounts" />
+            <End Role="Users" EntitySet="Users" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Activities_Projects" Association="Self.FK_Activities_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Activities" EntitySet="Activities" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Contacts_Projects" Association="Self.FK_Contacts_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Contacts" EntitySet="Contacts" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Files_Projects" Association="Self.FK_Files_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Files" EntitySet="Files" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Files_Users" Association="Self.FK_Files_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Files" EntitySet="Files" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Fixes_Projects" Association="Self.FK_Fixes_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Fixes" EntitySet="Fixes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Globals_Projects" Association="Self.FK_Globals_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Globals" EntitySet="Globals" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Incomes_Projects" Association="Self.FK_Incomes_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Incomes" EntitySet="Incomes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Incomes_Users" Association="Self.FK_Incomes_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Incomes" EntitySet="Incomes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Meetings_Projects" Association="Self.FK_Meetings_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Meetings" EntitySet="Meetings" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Meetings_Users" Association="Self.FK_Meetings_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Meetings" EntitySet="Meetings" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Outcomes_Projects" Association="Self.FK_Outcomes_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Outcomes" EntitySet="Outcomes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Outcomes_Users" Association="Self.FK_Outcomes_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Outcomes" EntitySet="Outcomes" />
+          </AssociationSet>
+          <AssociationSet Name="FK__RefUserPr__Proje__1BC821DD" Association="Self.FK__RefUserPr__Proje__1BC821DD">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="RefUserPro" EntitySet="RefUserPro" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Projects_Projects" Association="Self.FK_Projects_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Projects1" EntitySet="Projects" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Projects_ProjectStatuses" Association="Self.FK_Projects_ProjectStatuses">
+            <End Role="ProjectStatuses" EntitySet="ProjectStatuses" />
+            <End Role="Projects" EntitySet="Projects" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Resources_Projects" Association="Self.FK_Resources_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Resources" EntitySet="Resources" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Risks_Projects" Association="Self.FK_Risks_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Risks" EntitySet="Risks" />
+          </AssociationSet>
+          <AssociationSet Name="FK_RoleResources_Projects" Association="Self.FK_RoleResources_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="RoleResources" EntitySet="RoleResources" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Roles_Projects" Association="Self.FK_Roles_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Roles" EntitySet="Roles" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Tasks_Projects" Association="Self.FK_Tasks_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Tasks" EntitySet="Tasks" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Teams_Projects" Association="Self.FK_Teams_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Teams" EntitySet="Teams" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ToDoLists_Projects" Association="Self.FK_ToDoLists_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="ToDoLists" EntitySet="ToDoLists" />
+          </AssociationSet>
+          <AssociationSet Name="FK__RefUserPr__UserI__1AD3FDA4" Association="Self.FK__RefUserPr__UserI__1AD3FDA4">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="RefUserPro" EntitySet="RefUserPro" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Risks_RiskPriorities" Association="Self.FK_Risks_RiskPriorities">
+            <End Role="RiskPriorities" EntitySet="RiskPriorities" />
+            <End Role="Risks" EntitySet="Risks" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Risks_RiskProbabilities" Association="Self.FK_Risks_RiskProbabilities">
+            <End Role="RiskProbabilities" EntitySet="RiskProbabilities" />
+            <End Role="Risks" EntitySet="Risks" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Risks_Projects1" Association="Self.FK_Risks_Projects1">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Risks" EntitySet="Risks" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Risks_RiskStatuses" Association="Self.FK_Risks_RiskStatuses">
+            <End Role="RiskStatuses" EntitySet="RiskStatuses" />
+            <End Role="Risks" EntitySet="Risks" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TasksRoles_Roles" Association="Self.FK_TasksRoles_Roles">
+            <End Role="Roles" EntitySet="Roles" />
+            <End Role="TasksRoles" EntitySet="TasksRoles" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Teams_Roles" Association="Self.FK_Teams_Roles">
+            <End Role="Roles" EntitySet="Roles" />
+            <End Role="Teams" EntitySet="Teams" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TasksRoles_Tasks" Association="Self.FK_TasksRoles_Tasks">
+            <End Role="Tasks" EntitySet="Tasks" />
+            <End Role="TasksRoles" EntitySet="TasksRoles" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Teams_Users" Association="Self.FK_Teams_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Teams" EntitySet="Teams" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ToDoLists_ToDoListStatuses" Association="Self.FK_ToDoLists_ToDoListStatuses">
+            <End Role="ToDoListStatuses" EntitySet="ToDoListStatuses" />
+            <End Role="ToDoLists" EntitySet="ToDoLists" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ToDoLists_Users" Association="Self.FK_ToDoLists_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="ToDoLists" EntitySet="ToDoLists" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ShlekenModel1StoreContainer" CdmEntityContainer="ShlekenEntities1">
+          <EntitySetMapping Name="Accounts">
+            <EntityTypeMapping TypeName="ShlekenModel1.Accounts">
+              <MappingFragment StoreEntitySet="Accounts">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Activities">
+            <EntityTypeMapping TypeName="ShlekenModel1.Activities">
+              <MappingFragment StoreEntitySet="Activities">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Notes" ColumnName="Notes" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Contacts">
+            <EntityTypeMapping TypeName="ShlekenModel1.Contacts">
+              <MappingFragment StoreEntitySet="Contacts">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Role" ColumnName="Role" />
+                <ScalarProperty Name="Company" ColumnName="Company" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Files">
+            <EntityTypeMapping TypeName="ShlekenModel1.Files">
+              <MappingFragment StoreEntitySet="Files">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Fixes">
+            <EntityTypeMapping TypeName="ShlekenModel1.Fixes">
+              <MappingFragment StoreEntitySet="Fixes">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Value" ColumnName="Value" />
+                <ScalarProperty Name="ShowClient" ColumnName="ShowClient" />
+                <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Globals">
+            <EntityTypeMapping TypeName="ShlekenModel1.Globals">
+              <MappingFragment StoreEntitySet="Globals">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Value" ColumnName="Value" />
+                <ScalarProperty Name="ShowClient" ColumnName="ShowClient" />
+                <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Incomes">
+            <EntityTypeMapping TypeName="ShlekenModel1.Incomes">
+              <MappingFragment StoreEntitySet="Incomes">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Source" ColumnName="Source" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="ApproverId" ColumnName="ApproverId" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="Cost" ColumnName="Cost" />
+                <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Meetings">
+            <EntityTypeMapping TypeName="ShlekenModel1.Meetings">
+              <MappingFragment StoreEntitySet="Meetings">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Subject" ColumnName="Subject" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="Members" ColumnName="Members" />
+                <ScalarProperty Name="Agenda" ColumnName="Agenda" />
+                <ScalarProperty Name="Actions" ColumnName="Actions" />
+                <ScalarProperty Name="Location" ColumnName="Location" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Outcomes">
+            <EntityTypeMapping TypeName="ShlekenModel1.Outcomes">
+              <MappingFragment StoreEntitySet="Outcomes">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Desination" ColumnName="Desination" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="ApproverId" ColumnName="ApproverId" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="Cost" ColumnName="Cost" />
+                <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Projects">
+            <EntityTypeMapping TypeName="ShlekenModel1.Projects">
+              <MappingFragment StoreEntitySet="Projects">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="AccountId" ColumnName="AccountId" />
+                <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+                <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="Comments" ColumnName="Comments" />
+                <ScalarProperty Name="TaskTotalCost" ColumnName="TaskTotalCost" />
+                <ScalarProperty Name="TaskTotalHours" ColumnName="TaskTotalHours" />
+                <ScalarProperty Name="TeamTotalHours" ColumnName="TeamTotalHours" />
+                <ScalarProperty Name="TeamTotalCost" ColumnName="TeamTotalCost" />
+                <ScalarProperty Name="JiraUrl" ColumnName="JiraUrl" />
+                <ScalarProperty Name="JiraPassword" ColumnName="JiraPassword" />
+                <ScalarProperty Name="JiraUserName" ColumnName="JiraUserName" />
+                <ScalarProperty Name="JiraProjectkey" ColumnName="JiraProjectkey" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ProjectStatuses">
+            <EntityTypeMapping TypeName="ShlekenModel1.ProjectStatuses">
+              <MappingFragment StoreEntitySet="ProjectStatuses">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="RefUserPro">
+            <EntityTypeMapping TypeName="ShlekenModel1.RefUserPro">
+              <MappingFragment StoreEntitySet="RefUserPro">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="ProjecrId" ColumnName="ProjecrId" />
+                <ScalarProperty Name="IsOwner" ColumnName="IsOwner" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Resources">
+            <EntityTypeMapping TypeName="ShlekenModel1.Resources">
+              <MappingFragment StoreEntitySet="Resources">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="ShowClient" ColumnName="ShowClient" />
+                <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="RiskPriorities">
+            <EntityTypeMapping TypeName="ShlekenModel1.RiskPriorities">
+              <MappingFragment StoreEntitySet="RiskPriorities">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="RiskProbabilities">
+            <EntityTypeMapping TypeName="ShlekenModel1.RiskProbabilities">
+              <MappingFragment StoreEntitySet="RiskProbabilities">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Risks">
+            <EntityTypeMapping TypeName="ShlekenModel1.Risks">
+              <MappingFragment StoreEntitySet="Risks">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Mitigations" ColumnName="Mitigations" />
+                <ScalarProperty Name="Priority" ColumnName="Priority" />
+                <ScalarProperty Name="Probabilty" ColumnName="Probabilty" />
+                <ScalarProperty Name="Budget" ColumnName="Budget" />
+                <ScalarProperty Name="Delivery" ColumnName="Delivery" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="Cost" ColumnName="Cost" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="RiskStatuses">
+            <EntityTypeMapping TypeName="ShlekenModel1.RiskStatuses">
+              <MappingFragment StoreEntitySet="RiskStatuses">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="RoleResources">
+            <EntityTypeMapping TypeName="ShlekenModel1.RoleResources">
+              <MappingFragment StoreEntitySet="RoleResources">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Roles">
+            <EntityTypeMapping TypeName="ShlekenModel1.Roles">
+              <MappingFragment StoreEntitySet="Roles">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Tasks">
+            <EntityTypeMapping TypeName="ShlekenModel1.Tasks">
+              <MappingFragment StoreEntitySet="Tasks">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="ShowClient" ColumnName="ShowClient" />
+                <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TasksRoles">
+            <EntityTypeMapping TypeName="ShlekenModel1.TasksRoles">
+              <MappingFragment StoreEntitySet="TasksRoles">
+                <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+                <ScalarProperty Name="TaskId" ColumnName="TaskId" />
+                <ScalarProperty Name="Value" ColumnName="Value" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Teams">
+            <EntityTypeMapping TypeName="ShlekenModel1.Teams">
+              <MappingFragment StoreEntitySet="Teams">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="Hours" ColumnName="Hours" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ToDoLists">
+            <EntityTypeMapping TypeName="ShlekenModel1.ToDoLists">
+              <MappingFragment StoreEntitySet="ToDoLists">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="IsDone" ColumnName="IsDone" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="Userid" ColumnName="Userid" />
+                <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ToDoListStatuses">
+            <EntityTypeMapping TypeName="ShlekenModel1.ToDoListStatuses">
+              <MappingFragment StoreEntitySet="ToDoListStatuses">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="ShlekenModel1.Users">
+              <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="AccountId" ColumnName="AccountId" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

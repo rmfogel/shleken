@@ -1,0 +1,95 @@
+﻿@model List<ProjectsViewModel>
+
+@using Pajonos.Shleken.Services
+@using Pajonos.Shleken.Services.Models
+
+@{
+    ViewData["Title"] = "Projects";
+    var search = ViewBag.Search as ProjectsSearchViewModel;
+}
+
+@section TitleRight {
+    <a href="javascript:" class="btn btn-default btn-search"><i class="fa fa-filter" aria-hidden="true"></i></a>
+    <a href="~/Projects/New" class="btn btn-default" title="New Projects" data-popup><i class="fa fa-plus" aria-hidden="true"></i> New</a>
+
+    <div class="btn-group" data-toggle="buttons">
+        <label class="btn btn-default active">
+            <input type="radio" name="view" autocomplete="off" checked><i class="fa fa-table" aria-hidden="true"></i>
+        </label>
+        <label class="btn btn-default">
+            <input type="radio" name="view" autocomplete="off"><i class="fa fa-th-large" aria-hidden="true"></i>
+        </label>
+    </div>
+}
+
+@section Sidebar {
+    @Html.Partial("DashboardSidebar")
+}
+
+<div class="row search-panel">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <form class="form-inline" method="get">
+                    <div class="form-group">
+                        @Html.LabelFor(i => search.Name)
+                        @Html.TextBoxFor(i => search.Name, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(i => search.OwnerId)
+                        @Html.DropDownListFor(i => search.OwnerId, new SelectList(ViewBag.Users, "Id", "Name"), new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(i => search.Status)
+                        @Html.DropDownListFor(i => search.Status, new SelectList(ViewBag.Status, "Id", "Name"), new { @class = "form-control" })
+                    </div>
+                    <button type="submit" class="btn btn-primary">Search</button>
+                    <a href="~/Projects" class="btn btn-default">Clear</a>
+                  
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Owner</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Issues (
+                        )</th>
+                    <th>Budget</th>
+                    <th>Status</th>
+                    <th style="width:60px"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.ActionLink(item.Name, "Project", "Project",new { Projects= item.Id},null)</td>
+                        <td>@item.OwnerName</td>
+                        <td>@item.StartDate</td>
+                        <td>@item.EndDate</td>
+                        <td>32<br /><small class="text-danger">12 overdue</small></td>
+                        <td>3,500$/5,200$<br /><small>235/450 hours</small></td>
+                        <td>
+                            @item.StatusName
+                           
+                        </td>
+                        <td style="width:1px">
+                            <a href="~/Projects/@(item.Id)/delete" class="pull-right delete-item"><i class="glyphicon glyphicon-trash fa-fw" aria-hidden="true"></i></a>
+                            <a href="~/Projects/@item.Id" class="pull-left" title="Edit Projects" data-popup><i class="glyphicon glyphicon-pencil fa-fw" aria-hidden="true"></i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

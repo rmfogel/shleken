@@ -1,0 +1,90 @@
+﻿
+@model List<MeetingsViewModel>
+@using Pajonos.Shleken.Services
+@using Pajonos.Shleken.Services.Models
+
+@{
+    ViewData["Title"] = "Meetings";
+    var search = ViewBag.Search as MeetingsearchViewModel;
+
+}
+
+
+@section Title {
+    <h2><a href="@Url.Action("Index","Project",new {Projects=(@ViewBag.ProjectId)})">@ViewBag.ProjectsName.Name</a></h2> \
+}
+
+@section TitleRight {
+    <a href="javascript:" class="btn btn-default btn-search"><i class="fa fa-filter" aria-hidden="true"></i></a>
+    <a href="~/project/@ViewBag.ProjectId/Meetings/New" class="btn btn-default" title="New Meetings" data-popup><i class="fa fa-plus" aria-hidden="true"></i> New</a>
+}
+
+@section Sidebar {
+    @Html.Partial("ProjectSidebar")
+}
+<div class="row search-panel">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <form class="form-inline" method="get">
+                    <div class="form-group">
+                        @Html.LabelFor(i => search.Subject)
+                        @Html.TextBoxFor(i => search.Subject, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(i => search.Location)
+                        @Html.TextBoxFor(i => search.Location, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(i => search.FromDate)
+                        @Html.TextBoxFor(i => search.FromDate, new { @class = "form-control", type = "date" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(i => search.ToDate)
+                        @Html.TextBoxFor(i => search.ToDate, new { @class = "form-control", type = "date" })
+                    </div>
+                    <button type="submit" class="btn btn-primary">Search</button>
+                    <a href="~/project/@(ViewBag.ProjectId)/Meetings" class="btn btn-default">Clear</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-bordered  table-striped">
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Agenda</th>
+                    <th>Actions</th>
+                    <th>Members</th>
+                    <th>Location</th>
+                    <th>Date <i class="fa fa-sort-alpha-desc" aria-hidden="true"></i></th>
+                    <th style="width:60px"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td>@item.Subject</td>
+                    <td>@item.Agenda</td>
+                    <td>@item.Actions</td>
+                    <td>@item.Members</td>
+                    <td>@item.Location</td>
+                    <td>
+                        @item.Date
+                       
+                    </td>
+                    <td>
+                        <a href="~/project/@(ViewBag.ProjectId)/Meetings/@(item.Id)/delete" class="pull-right delete-item"><i class="glyphicon glyphicon-trash fa-fw" aria-hidden="true"></i></a>
+                        <a href="~/project/@item.ProjectId/Meetings/@item.Id" title="Edit Meetings" data-popup class="pull-left"><i class="glyphicon glyphicon-pencil fa-fw" aria-hidden="true"></i></a>
+                    </td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

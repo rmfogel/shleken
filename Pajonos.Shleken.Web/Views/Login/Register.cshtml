@@ -1,0 +1,117 @@
+﻿@model Pajonos.Shleken.Services.Models.UsersLoginViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <style>
+
+        body {
+            background-color: rgba(163, 172, 182, 0.5);
+        }
+
+
+
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        input {
+            border: 0;
+            background-color: white;
+            display: block;
+            margin: 25px auto;
+            text-align: center;
+            border: 2px solid #081460;
+            padding: 12px 10px;
+            width: 250px;
+            outline: none;
+            color: #540f0f;
+            border-radius: 10px;
+            transition: 0.25s;
+        }
+
+        label {
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+
+        input[type="submit"] {
+            background-color: #540f0f;
+            color: white;
+            border: none;
+        }
+
+        .box {
+            width: 450px;
+            padding: 30px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            box-shadow: 0 2px 8px 0 rgba(0,0,0,0.16), 0 0 1px 0 rgba(0,0,0,0.16);
+            border-radius: 2px;
+            padding: 48px 40px 40px;
+        }
+
+        img {
+            width: 380px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div>
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="box">
+                <img src="~/images/Untitled-1.png" />
+                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @placeholder = "name" , @required= "required" } })
+                @if (@ViewBag.RegisterUsers != null)
+                {
+                    <label>@ViewBag.RegisterUsers</label>
+                }
+
+                @Html.EditorFor(model => model.Email, new { htmlAttributes = new {  @placeholder = "email address", @type = "email", @required = "required" } })
+
+
+                @Html.EditorFor(model => model.Password, new { htmlAttributes = new {  @placeholder = "password", @type = "password", @required = "required" } })
+                @if (ViewBag.RegisterPassword != null)
+                {
+                    <label>@ViewBag.RegisterPassword</label>
+                }
+
+                @Html.HiddenFor(model => model.ReturnUrl, new { htmlAttributes = new { } })
+                
+                <div>
+                    <div>
+                        <input type="submit" value="Register" />
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <p>Return to @Html.ActionLink("log in page", "Login")?</p>
+                </div>
+            </div>
+        </div>
+    }
+
+
+</body>
+</html>

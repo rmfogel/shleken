@@ -1,0 +1,125 @@
+﻿
+@model Pajonos.Shleken.Services.Models.ProjectsViewModel
+@using Pajonos.Shleken.Services
+@using Pajonos.Shleken.Services.Models
+
+@{
+    ViewData["Title"] = "Settings";
+}
+@section Title {
+    <h2><a href="@Url.Action("Index","Project",new {Projects=(@ViewBag.ProjectId)})">@ViewBag.ProjectsName.Name</a></h2> \
+}
+@section Sidebar {
+    @Html.Partial("ProjectSidebar")
+}
+
+@*<div class="row">
+        <div class="col-md-6">
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Name">
+                    <span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+                </div>
+                <div class="form-group">
+                    <label for="name">Key</label>
+                    <input type="text" class="form-control" id="Key" placeholder="Key">
+                    <span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+                </div>
+                <div class="form-group">
+                    <label for="name">Owner</label>
+                    <input type="text" class="form-control" id="name" placeholder="Owner">
+                    <span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+                </div>
+                <div class="form-group">
+                    <label for="hours">Start Date</label>
+                    <input type="text" class="form-control" id="start-date" placeholder="Start Date">
+                    <span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+                </div>
+                <div class="form-group">
+                    <label for="hours">End Date</label>
+                    <input type="text" class="form-control" id="end-date" placeholder="End Date">
+                    <span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+                </div>
+                <div class="form-group">
+                    <label for="hours">Status</label>
+                    <select class="form-control" id="status">
+                        <option>Active</option>
+                        <option>Noactive</option>
+                    </select>
+                    <span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+                </div>
+                <div class="form-group">
+                    <label for="comments">Comments</label>
+                    <textarea type="number" class="form-control" id="comments" placeholder="Comments" rows="3"></textarea>
+                    <span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+                </div>
+                <button type="button" class="btn btn-primary" data-loading-text="Saving...">Save</button>
+            </form>
+        </div>
+    </div>*@
+
+
+@using (Html.BeginForm("Settings", "Project", FormMethod.Post, new { @class = "form-horizontal" })){
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(model => model.AccountId)
+    @Html.HiddenFor(model => model.Id)
+
+    <div class="form-group">
+        @*@Html.LabelFor(i => Model.Name, new { @class = "col-sm-2 control-label" })*@
+        <div class="col-sm-10">
+            @Html.TextBoxFor(i => Model.Name, new { @class = "form-control", placeholder = "Name", type = "text" })
+            <span class="help-block">Projects Name</span>
+            @Html.ValidationMessageFor(i => Model.Name)
+        </div>
+    </div>
+    <div class="form-group">
+        @*@Html.LabelFor(i => Model.OwnerId, new { @class = "col-sm-2 control-label" })*@
+        <div class="col-sm-10">
+            @Html.DropDownListFor(i => Model.OwnerId, new SelectList(ViewBag.Users, "Id", "Name"), new { @class = "form-control" })
+            <span class="help-block">Projects Owner</span>
+            @Html.ValidationMessageFor(i => Model.OwnerId)
+
+        </div>
+    </div>
+    <div class="form-group">
+        @*@Html.LabelFor(model => model.StartDate, htmlAttributes: new { @class = "control-label col-md-2" })*@
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.StartDate, new { htmlAttributes = new { @class = "form-control", type = "date" } })
+            <span class="help-block">Start Date</span>
+            @Html.ValidationMessageFor(model => model.StartDate, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @*@Html.LabelFor(model => model.EndDate, htmlAttributes: new { @class = "control-label col-md-2" })*@
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.EndDate, new { htmlAttributes = new { @class = "form-control", type = "date" } })
+            <span class="help-block">End Date</span>
+            @Html.ValidationMessageFor(model => model.EndDate, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @*@Html.LabelFor(i => Model.Status, new { @class = "col-sm-2 control-label" })*@
+        <div class="col-sm-10">
+            @Html.DropDownListFor(i => Model.Status, new SelectList(ViewBag.Status, "Id", "Name"), new { @class = "form-control" })
+            <span class="help-block">Projects status</span>
+            @Html.ValidationMessageFor(i => Model.Status)
+        </div>
+    </div>
+    <div class="form-group">
+        @*@Html.LabelFor(i => Model.Status, new { @class = "col-sm-2 control-label" })*@
+        <div class="col-sm-10">
+            @Html.TextAreaFor(i => Model.Comments, new { @class = "form-control", placeholder = "Comments", type = "text", row = "5" })
+            <span class="help-block">Comments</span>
+            @Html.ValidationMessageFor(i => Model.Comments)
+        </div>
+    </div>
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <div class="form-group">
+        <div class="@*col-md-offset-2*@ col-md-10">
+            <button type="submit" class="btn btn-primary" data-loading-text="Saving...">Save</button>
+        </div>
+    </div>
+}

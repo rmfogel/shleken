@@ -1,0 +1,224 @@
+﻿@model List<RisksViewModel>
+@using Pajonos.Shleken.Services
+@using Pajonos.Shleken.Services.Models
+
+
+@{
+    ViewData["Title"] = "Risks";
+    var search = ViewBag.Search as RisksearchViewModel;
+    var Risks = ViewBag.Risks as List<RisksViewModel>;
+}
+
+
+@section Title {
+    <h2><a href="@Url.Action("Index","Project",new {Projects=(@ViewBag.ProjectId)})">@ViewBag.ProjectsName.Name</a></h2> \
+}
+
+@section TitleRight {
+    <a href="javascript:" class="btn btn-default btn-search"><i class="fa fa-filter" aria-hidden="true"></i></a>
+    <a href="~/project/@(ViewBag.ProjectId)/Risks/New" class="btn btn-default" title="New Risks" data-popup><i class="fa fa-plus" aria-hidden="true"></i> New</a>
+}
+
+@section Sidebar {
+    @Html.Partial("ProjectSidebar")
+}
+<div class="row search-panel">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <form class="form-inline" method="get">
+                    <div class="form-group">
+                        @Html.LabelFor(i => search.Name)
+                        @Html.TextBoxFor(i => search.Name, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(i => search.UserId)
+                        @Html.DropDownListFor(i => search.UserId, new SelectList(ViewBag.UsersSearch, "Id", "Name"), new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(i => search.Status)
+                        @Html.DropDownListFor(i => search.Status, new SelectList(ViewBag.Status, "Id", "Name"), new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(i => search.Probabilty)
+                        @Html.DropDownListFor(i => search.Probabilty, new SelectList(ViewBag.Probability, "Id", "Name"), new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(i => search.Priority)
+                        @Html.DropDownListFor(i => search.Priority, new SelectList(ViewBag.Priority, "Id", "Name"), new { @class = "form-control" })
+                    </div>
+                    <button type="submit" class="btn btn-primary">Search</button>
+                    <a href="~/project/@(ViewBag.ProjectId)/Risks" class="btn btn-default">Clear</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Mitigations</th>
+                    <th>Priority <i class="fa fa-sort-alpha-desc" aria-hidden="true"></i></th>
+                    <th>Probability</th>
+                    <th>Budget</th>
+                    <th>Delivery</th>
+                    <th>Due Date</th>
+                    <th>Owner</th>
+                    <th>Status</th>
+                    <th>Cost %</th>
+                    <th style="width:60px"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                  
+                    <tr class="@(item.Date < DateTime.Now ? "danger" : "")">
+                        <td>@item.Name</td>
+                        <td>@item.Mitigations</td>
+                        <td>@item.PriorityName</td>
+                        <td>@item.ProbabiltyName</td>
+                        <td><i class="@(item.Budget?"fa fa-check":"")" aria-hidden="true"></i></td>
+                        <td><i class="@(item.Delivery?"fa fa-check":"")" aria-hidden="true"></i></td>
+                        <td>@item.Date</td>
+                        <td>
+                            <a>@item.UsersName</a>
+                            @*<a href="#"><img src="~/images/meir.png" class="Users" /> Meir Dahan</a>*@
+                        </td>
+                        <td>@item.StatusName</td>
+                        <td>
+                            @(item.Cost + "%")
+                           
+                        </td>
+                        <td>
+                            <a href="~/project/@(ViewBag.ProjectId)/Risks/@(item.Id)/delete" class="pull-right delete-item"><i class="glyphicon glyphicon-trash fa-fw" aria-hidden="true"></i></a>
+                            <a href="~/project/@item.ProjectId/Risks/@item.Id" class="pull-left" title="Edit Risks" data-popup><i class="glyphicon glyphicon-pencil fa-fw" aria-hidden="true"></i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+                <tr class="success strong">
+                    <td colspan="9">Total</td>
+                    <td>@(ViewBag.RisksTotal)%</td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
+@*<div class="modal fade" id="modalRisksNew" tabindex="-1" Roles="dialog">
+        <div class="modal-dialog" Roles="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title"><i class="fa fa-umbrella" aria-hidden="true"></i>New Risks</h4>
+                </div>
+                <div class="modal-body">
+                    @using (Ajax.BeginForm("CreateRisks", "Project", null, new AjaxOptions() { HttpMethod = "POST", }, new { @class = "form-horizontal" }))
+                    {
+                        @Html.AntiForgeryToken();
+                        @Html.HiddenFor(i => RisksViewmodel.ProjectId)
+
+                        <div class="form-group">
+                            @Html.LabelFor(i => RisksViewmodel.Name, new { @class = "col-sm-2 control-label" })
+                            <div class="col-sm-10">
+                                @Html.TextBoxFor(i => RisksViewmodel.Name, new { @class = "form-control", placeholder = "Name..", type = "text" })
+                                <span class="help-block">Risks name will appear in Projects home page</span>
+                                @Html.ValidationMessageFor(i => RisksViewmodel.Name)
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(i => RisksViewmodel.Mitigations, new { @class = "col-sm-2 control-label" })
+                            <div class="col-sm-10">
+                                @Html.TextAreaFor(i => RisksViewmodel.Mitigations, new { @class = "form-control", placeholder = "Mitigations..", row = "5", type = "text" })
+                                <span class="help-block">Risks Mitigations</span>
+                                @Html.ValidationMessageFor(i => RisksViewmodel.Mitigations)
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(i => RisksViewmodel.Proriority, new { @class = "col-sm-2 control-label" })
+                            <div class="col-sm-10">
+                                @Html.DropDownListFor(i => RisksViewmodel.Proriority, new SelectList(new[] { "Low", "Medium", "High", "Critical" }), new { @class = "form-control" })
+                                <span class="help-block">Set priority for better filtering</span>
+                                @Html.ValidationMessageFor(i => RisksViewmodel.Proriority)
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(i => RisksViewmodel.Probabilty, new { @class = "col-sm-2 control-label" })
+                            <div class="col-sm-10">
+                                @Html.DropDownListFor(i => RisksViewmodel.Probabilty, new SelectList(new[] { "Likely", "Unlikely" }), new { @class = "form-control" })
+                                <span class="help-block">Set Probability</span>
+                                @Html.ValidationMessageFor(i => RisksViewmodel.Probabilty)
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(i => RisksViewmodel.Date, new { @class = "col-sm-2 control-label" })
+                            <div class="col-sm-10">
+                                @Html.TextBoxFor(i => RisksViewmodel.Date, new { @class = "form-control", placeholder = "Due Date..", type = "date" })
+                                <span class="help-block">Risks due date for review</span>
+                                @Html.ValidationMessageFor(i => RisksViewmodel.Date)
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(i => RisksViewmodel.Status, new { @class = "col-sm-2 control-label" })
+                            <div class="col-sm-10">
+                                @Html.DropDownListFor(i => RisksViewmodel.Status, new SelectList(new[] { "New", "Reviewed", "Managed" }), new { @class = "form-control" })
+                                <span class="help-block">Risks current status</span>
+                                @Html.ValidationMessageFor(i => RisksViewmodel.Status)
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <div class="checkbox">
+                                    <label>
+                                        @Html.CheckBoxFor(i => RisksViewmodel.Budget, new { type = "checkbox" })
+                                        <span class="help-block">Is this Risks can affect the budget</span>
+                                        @Html.ValidationMessageFor(i => RisksViewmodel.Budget)
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <div class="checkbox">
+                                    <label>
+                                        @Html.CheckBoxFor(i => RisksViewmodel.Delivery, new { type = "checkbox" })
+                                        <span class="help-block">Is this Risks can affect the delivery</span>
+                                        @Html.ValidationMessageFor(i => RisksViewmodel.Delivery)
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(i => RisksViewmodel.UserId, new { @class = "col-sm-2 control-label" })
+                            <div class="col-sm-10">
+                                @Html.DropDownListFor(i => RisksViewmodel.UserId, new SelectList(RisksViewmodel.MyList, "Key", "Value"), new { @class = "form-control" })
+                                <span class="help-block">Projects Owner</span>
+                                @Html.ValidationMessageFor(i => RisksViewmodel.UserId)
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="Cost" class="col-sm-2 control-label">Cost</label>
+                            <div class="col-sm-10">
+                                <div class="input-group">
+                                    @Html.TextBoxFor(i => RisksViewmodel.Cost, new { @class = "form-control", placeholder = "cost..", type = "number" })
+                                    <span class="input-group-addon" id="basic-addon1">%</span>
+                                </div>
+                                <span class="help-block">Cost percentage</span>
+                                @Html.ValidationMessageFor(i => RisksViewmodel.Cost)
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary">Save</button>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>*@

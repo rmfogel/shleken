@@ -1,0 +1,325 @@
+﻿@using Pajonos.Shleken.Services
+@using Pajonos.Shleken.Services.Models
+
+@{
+    ViewData["Title"] = "Tasks";
+  
+    var RolesViewModel = new RolesResourcesViewModel() { ProjectId = ViewBag.ProjectId };
+}
+
+@section Title {
+    <h2><a href="@Url.Action("Index","Project",new {Projects=(@ViewBag.ProjectId)})">@ViewBag.ProjectsName.Name</a></h2> \
+}
+
+@section TitleRight {
+    @*<a href="javascript:" class="btn btn-default" data-toggle="modal" data-target="#modalTasks"><i class="fa fa-list" aria-hidden="true"></i> Tasks</a>*@
+    @*<a href="javascript:" class="btn btn-default"><i class="fa fa-list" aria-hidden="true"></i> Jobs</a>
+    <a href="javascript:" class="btn btn-default"><i class="fa fa-list" aria-hidden="true"></i> Fixes</a>
+    <a href="javascript:" class="btn btn-default"><i class="fa fa-list" aria-hidden="true"></i> Globals</a>*@
+    <a href="javascript:" class="btn btn-default" id="addTasks"><i class="fa fa-list" aria-hidden="true"></i> Add Tasks</a>
+    @*<a href="javascript:" class="btn btn-default" id="addFixes"><i class="fa fa-list" aria-hidden="true"></i> Add Fixes</a>
+    <a href="javascript:" class="btn btn-default" id="addGlobals"><i class="fa fa-list" aria-hidden="true"></i> Add Globals</a>*@
+    <a href="javascript:" class="btn btn-default" data-toggle="modal" data-target="#modalRolesNew"><i class="fa fa-list" aria-hidden="true"></i> Add Roles</a>
+    <button type="button" class="btn btn-primary" id="saveTasksTableNow">Save</button>
+}
+
+@section Sidebar {
+    @Html.Partial("ProjectSidebar")
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-bordered" data-count="@ViewBag.Roles.Count" data-Roles="Json(@ViewBag.Roles)" data-Projects-id="@(ViewBag.ProjectId)" id="table">
+            <thead>
+                <tr>
+                    <th>Tasks</th>
+                    <th>Description</th>
+                    <th style="width:1px">Show Client</th>
+                    <th style="width:100px">Status</th>
+
+                    <th style="width:100px">Value</th>
+
+                    @foreach (var Roles in ViewBag.UserRoles)
+                    {
+                        <th style="width:100px" data-price="@(Roles.Value)">
+                            @(Roles.FullName)
+                            <a href="~/project/@(ViewBag.ProjectId)/Roles/@(Roles.Id)/delete" class="delete-item pull-right"><i class="glyphicon glyphicon-trash fa-fw" aria-hidden="true"></i></a>
+                        </th>
+                    }
+
+                    <th style="width:1px">Total Hours</th>
+                    <th style="width:1px">Total Cost</th>
+                    <th style="width:1px"></th>
+                </tr>
+            </thead>
+            <tbody id="Tasks">
+                @*@foreach (var item in Tasks)
+        {
+            foreach (var RolesHours in item.TasksRoles)
+            {
+                <tr class="row-resource" data-id="@(RolesHours.Tasks.Id)">
+                    <td class="edit" data-name><input class="input-table" type="text" value="@(RolesHours.Tasks.Name)" /></td>
+                    <td data-description class="edit"><input class="input-table" type="text" value="@(RolesHours.Tasks.Description)" /></td>
+                    <td data-show-client><input type="checkbox" checked="@(RolesHours.Tasks.ShowClient)" /></td>
+                    <td></td>
+                    <td><input type="number" min="0" value="@RolesHours.Value" class="input-table-number Tasks-input" /></td>
+                    <td class="client-hours"></td>
+                    <td class="total-cost"></td>
+                    <td> <a href="~/project/@(ViewBag.ProjectId)/Tasks/@(item.Id)/delete" class="delete-item"><i class="glyphicon glyphicon-trash fa-fw" aria-hidden="true"></i></a></td>
+                </tr>
+            }
+        }*@
+
+
+                @foreach (var item in ViewBag.Tasks)
+                {
+                <tr class="row-resource" data-id="@(item.Id)">
+                    <td data-name><input class="input-table" type="text" value="@(item.Name)" /></td>
+                    <td data-description><input class="input-table" type="text" value="@(item.Description)" /></td>
+                    <td data-show-client><input type="checkbox" checked="@(item.ShowClient)" /></td>
+                    <td data-status>
+                        <select id="a@(item.Id)">
+                            @if (item.Status == "new")
+                            {
+                                <option value="new" selected="selected">new</option>
+                            }
+                            else
+                            {
+                                <option value="new">new</option>
+
+                            } @if (item.Status == "done")
+                            {
+                                <option value="done" selected="selected">done</option>
+                            }
+                            else
+                            {
+                                <option value="done">done</option>
+
+                            }
+                            @if (item.Status == "in progress")
+                            {
+                                <option value="in progress" selected="selected">in progress</option>
+                            }
+                            else
+                            {
+                                <option value="in progress">in progress</option>
+
+                            }
+                        </select>
+                    </td>
+                    <td></td>
+
+
+
+                    @*@foreach (var Roles in ViewBag.UserRoles)
+                    {
+                        <td><input data-hours="@Roles.RoleId" type="number" min="0" value="100" class="input-table-number Tasks-input hour-input" />H</td>
+                    }*@
+
+
+                    @foreach (var TasksRoles in item.TasksRoles)
+                    {
+                        <td><input data-hours="@TasksRoles.RoleId" type="number" min="0" value="@TasksRoles.Value" class="input-table-number Tasks-input hour-input" />H</td>
+                    }
+
+
+                    <td class="client-hours" data-price="180"></td>
+                    <td class="total-cost"></td>
+                    <td> <a href="~/Project/@(ViewBag.ProjectId)/Tasks/@(item.Id)/delete" class="delete-item"><i class="glyphicon glyphicon-trash fa-fw" aria-hidden="true"></i></a></td>
+                </tr>
+                }
+
+                @foreach (var item in ViewBag.NotActiveTasks)
+                {
+                <tr class="row-resource" data-id="@(item.Id)">
+                    <td data-name><input class="input-table" type="text" value="@(item.Name)" /></td>
+                    <td data-description><input class="input-table" type="text" value="@(item.Description)" /></td>
+                    <td data-show-client><input type="checkbox" checked="@(item.ShowClient)" /></td>
+                    <td data-status>
+                        <select id="a@(item.Id)">
+                            @if (item.Status == "new")
+                            {
+                                <option value="new" selected="selected">new</option>
+                            }
+                            else
+                            {
+                                <option value="new">new</option>
+
+                            } @if (item.Status == "done")
+                            {
+                                <option value="done" selected="selected">done</option>
+                            }
+                            else
+                            {
+                                <option value="done">done</option>
+
+                            }
+                            @if (item.Status == "in progress")
+                            {
+                                <option value="in progress" selected="selected">in progress</option>
+                            }
+                            else
+                            {
+                                <option value="in progress">in progress</option>
+
+                            }
+                        </select>
+
+                    </td>
+                    <td></td>
+                    @foreach (var TasksRoles in item.TasksRoles)
+                    {
+                        <td><input data-hours="@TasksRoles.RoleId" disabled="disabled" readonly="readonly" type="number" min="0" value="@TasksRoles.Value" class="input-table-number Tasks-input hour-input" />H</td>
+                    }
+
+
+                    <td class="client-hours" data-price="180"></td>
+                    <td class="total-cost"></td>
+                    <td> <a href="~/Project/@(ViewBag.ProjectId)/Tasks/@(item.Id)/delete" class="delete-item"><i class="glyphicon glyphicon-trash fa-fw" aria-hidden="true"></i></a></td>
+                </tr>
+              }
+
+                </tbody>
+            <tfoot>
+
+                <tr class="warning strong row-resource-culculate sum-total Fixes">
+                    <td>Total</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    @foreach (var Roles in ViewBag.UserRoles)
+                    {
+                        <td></td>
+                    }
+                    <td></td>
+                    <td class="calculate-Tasks calculate-Tasks-internal-cost Tasks-total-hours">@*@ViewBag.Current.TaskTotalHours*@</td>
+                    <td id="total-cost"></td>
+                </tr>
+              
+
+                @*<tr class="warning strong row-Fixes-culculate jobs sum-total">
+                    <td>Total Fixes</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    @foreach (var Roles in ViewBag.Roles)
+                    {
+                        <td></td>
+                    }
+
+                    <td></td>
+                    <td class="calculate-Tasks-internal-cost"></td>
+                    <td></td>
+                </tr>*@
+
+            
+                @*<tr class="warning strong row-Globals-culculate sum-total">
+                    <td>Total Globals</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    @foreach (var Roles in ViewBag.Roles)
+                    {
+                        <td></td>
+                    }
+
+                    <td class="calculate-Globals-internal-hours"></td>
+                    <td class="calculate-Globals-internal-hours"></td>
+                    <td></td>
+                </tr>*@
+                @*<tr class="success strong total">
+                    <td>Total</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    @foreach (var Roles in ViewBag.UserRoles)
+                    {
+                        <td></td>
+                    }
+
+                        <td class="Tasks-total-hours">100</td>
+                    <td class="Tasks-total-cost"></td>
+                    <td></td>
+                </tr>*@
+            </tfoot>
+        </table>
+    </div>
+</div>
+
+<div class="modal fade" id="modalTasks" tabindex="-1" Roles="dialog">
+    <div class="modal-dialog" Roles="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title"><i class="fa fa-Tasks" aria-hidden="true"></i> Tasks</h4>
+            </div>
+            <div class="modal-body">
+                <ul class="list-group sortable">
+                    <li class="list-group-item">
+                        <a href="javascript:" class="pull-right"><i class="fa fa-trash-o fa-fw" aria-hidden="true"></i></a>
+                        <a href="javascript:" class="pull-right"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i></a>
+                        <a href="javascript:" class="sortable-handle"><i class="fa fa-ellipsis-v fa-fw" aria-hidden="true"></i></a> Master page
+                    </li>
+                    <li class="list-group-item">
+                        <a href="javascript:" class="pull-right"><i class="fa fa-trash-o fa-fw" aria-hidden="true"></i></a>
+                        <a href="javascript:" class="pull-right"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i></a>
+                        <a href="javascript:" class="sortable-handle"><i class="fa fa-ellipsis-v fa-fw" aria-hidden="true"></i></a> Home page
+                    </li>
+                    <li class="list-group-item">
+                        <a href="javascript:" class="pull-right"><i class="fa fa-trash-o fa-fw" aria-hidden="true"></i></a>
+                        <a href="javascript:" class="pull-right"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i></a>
+                        <a href="javascript:" class="sortable-handle"><i class="fa fa-ellipsis-v fa-fw" aria-hidden="true"></i></a> Product page
+                    </li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <a class="btn btn-default pull-left"><i class="fa fa-plus" aria-hidden="true"></i> Add</a>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalRolesNew" tabindex="-1" Roles="dialog" data-show-model="@ViewBag.ShowModel">
+    <div class="modal-dialog" Roles="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title"><i class="fa fa-address-card-o" aria-hidden="true"></i> New Roles</h4>
+            </div>
+            <div class="modal-body">
+                @using (Ajax.BeginForm("CreateRoles", "Project", null, new AjaxOptions() { HttpMethod = "POST", }, new { @class = "form-horizontal" }))
+                {
+                    @Html.AntiForgeryToken();
+                    @Html.HiddenFor(i => RolesViewModel.ProjectId)
+
+                    <div class="form-group">
+                        @Html.LabelFor(i => RolesViewModel.Name, new { @class = "col-sm-2 control-label" })
+                        <div class="col-sm-10">
+                            @Html.TextBoxFor(i => RolesViewModel.Name, new { @class = "form-control", placeholder = "Name" })
+                            @Html.ValidationMessageFor(i => RolesViewModel.Name)
+                        </div>
+                    </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">User</label>                      
+                        <div class="col-sm-10">
+                            <select class="form-control" name="User">
+                                @foreach (var item in ViewBag.Users)
+                                {
+                                 <option value="@item.Id" class="form-control">@item.Name</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                        <button type="submit" id="saveRoles" class="btn btn-primary">Save</button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

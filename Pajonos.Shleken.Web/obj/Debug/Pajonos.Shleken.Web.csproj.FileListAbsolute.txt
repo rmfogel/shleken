@@ -1,0 +1,1182 @@
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\ApplicationInsights.config
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.dll.config
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.pdb
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\csc.exe
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\csc.exe.config
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\csc.rsp
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\csi.exe
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\csi.exe.config
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\csi.rsp
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\System.AppContext.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\System.Console.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\System.IO.Compression.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\System.IO.Pipes.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\System.Security.Claims.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\System.Threading.Thread.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\System.ValueTuple.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\vbc.exe
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\vbc.exe.config
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\vbc.rsp
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\Antlr3.Runtime.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\EntityFramework.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\Microsoft.AI.Web.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\Microsoft.ApplicationInsights.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\Newtonsoft.Json.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\System.Web.Helpers.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\System.Web.Http.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\System.Web.Mvc.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\System.Web.Optimization.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\System.Web.Razor.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\System.Web.WebPages.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\WebGrease.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.pdb
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.dll.config
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\EntityFramework.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\Newtonsoft.Json.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\System.Web.Helpers.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\System.Web.Mvc.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\System.Web.Optimization.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\System.Web.Razor.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\System.Web.WebPages.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\Antlr3.Runtime.pdb
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\System.Web.Http.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\Microsoft.ApplicationInsights.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\Microsoft.AI.Web.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csprojAssemblyReference.cache
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csproj.CoreCompileInputs.cache
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csproj.CopyComplete
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.pdb
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\Atlassian.Jira.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\Pajonos.Shleken.Web\bin\RestSharp.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.pdb
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\ApplicationInsights.config
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.dll.config
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.pdb
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\csc.exe
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\csc.exe.config
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\csc.rsp
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\csi.exe
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\csi.exe.config
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\csi.rsp
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\System.AppContext.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\System.Console.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.Compression.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.Pipes.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Claims.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\System.Threading.Thread.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\System.ValueTuple.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\vbc.exe
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\vbc.exe.config
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\vbc.rsp
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\Antlr3.Runtime.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\EntityFramework.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Web.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\Microsoft.ApplicationInsights.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\Newtonsoft.Json.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\System.Web.Helpers.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\System.Web.Http.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\System.Web.Mvc.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\System.Web.Optimization.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\System.Web.Razor.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\WebGrease.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\Atlassian.Jira.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\RestSharp.dll
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.pdb
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.dll.config
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\EntityFramework.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\Newtonsoft.Json.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\System.Web.Helpers.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\System.Web.Mvc.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\System.Web.Optimization.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\System.Web.Razor.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\Antlr3.Runtime.pdb
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\System.Web.Http.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\Microsoft.ApplicationInsights.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Web.xml
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csprojAssemblyReference.cache
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csproj.CoreCompileInputs.cache
+C:\Users\TOSHIBA.DESKTOP-5EQRU09\Desktop\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csproj.CopyComplete
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\ApplicationInsights.config
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.dll.config
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.pdb
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\csc.exe
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\csc.exe.config
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\csc.rsp
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\csi.exe
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\csi.exe.config
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\csi.rsp
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\System.AppContext.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Console.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.Compression.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.Pipes.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Claims.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Threading.Thread.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\System.ValueTuple.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\vbc.exe
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\vbc.exe.config
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\vbc.rsp
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\Antlr3.Runtime.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\EntityFramework.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Web.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\Microsoft.ApplicationInsights.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\Newtonsoft.Json.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\System.Web.Helpers.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\System.Web.Http.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\System.Web.Mvc.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\System.Web.Optimization.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\System.Web.Razor.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\WebGrease.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\Atlassian.Jira.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\RestSharp.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.pdb
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.dll.config
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\EntityFramework.xml
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\Newtonsoft.Json.xml
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\System.Web.Helpers.xml
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\System.Web.Mvc.xml
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\System.Web.Optimization.xml
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\System.Web.Razor.xml
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.xml
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\Antlr3.Runtime.pdb
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\System.Web.Http.xml
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\Microsoft.ApplicationInsights.xml
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Web.xml
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csprojAssemblyReference.cache
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csproj.CoreCompileInputs.cache
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csproj.CopyComplete
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.dll
+C:\Users\This_User\Downloads\jm_ZaR4IsHMK0OIjOU\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.pdb
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\ApplicationInsights.config
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.dll.config
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.pdb
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csc.exe
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csc.exe.config
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csc.rsp
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csi.exe
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csi.exe.config
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csi.rsp
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.AppContext.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Console.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.Compression.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.Pipes.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Claims.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Threading.Thread.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.ValueTuple.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\vbc.exe
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\vbc.exe.config
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\vbc.rsp
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Antlr3.Runtime.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\EntityFramework.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Web.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.ApplicationInsights.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Newtonsoft.Json.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Helpers.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Http.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Mvc.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Optimization.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Razor.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\WebGrease.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Atlassian.Jira.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\RestSharp.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.pdb
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.dll.config
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\EntityFramework.xml
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Newtonsoft.Json.xml
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Helpers.xml
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Mvc.xml
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Optimization.xml
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Razor.xml
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.xml
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Antlr3.Runtime.pdb
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Http.xml
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.ApplicationInsights.xml
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Web.xml
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csprojAssemblyReference.cache
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csproj.CoreCompileInputs.cache
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csproj.CopyComplete
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.dll
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.pdb
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Shleken.mdf
+C:\Users\This_User\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Shleken_log.ldf
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csprojAssemblyReference.cache
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csproj.CoreCompileInputs.cache
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.pdb
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\ApplicationInsights.config
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Shleken.mdf
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Shleken_log.ldf
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Antlr3.Runtime.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\EntityFramework.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Web.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.ApplicationInsights.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Newtonsoft.Json.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Helpers.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Http.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Mvc.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Optimization.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Razor.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\WebGrease.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Atlassian.Jira.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\RestSharp.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.pdb
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.dll.config
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\EntityFramework.xml
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Newtonsoft.Json.xml
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Helpers.xml
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Mvc.xml
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Optimization.xml
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Razor.xml
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.xml
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Antlr3.Runtime.pdb
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Http.xml
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.ApplicationInsights.xml
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Web.xml
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csproj.CopyComplete
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.dll.config
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.pdb
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csc.exe
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csc.exe.config
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csc.rsp
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csi.exe
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csi.exe.config
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csi.rsp
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.AppContext.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Console.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.Compression.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.Pipes.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Claims.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Threading.Thread.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.ValueTuple.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\vbc.exe
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\vbc.exe.config
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\vbc.rsp
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\hodaya\Dropbox\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\ApplicationInsights.config
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Shleken.mdf
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Shleken_log.ldf
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.dll.config
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.pdb
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csc.exe
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csc.exe.config
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csc.rsp
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csi.exe
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csi.exe.config
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csi.rsp
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.AppContext.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Console.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.Compression.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.Pipes.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Claims.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Threading.Thread.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.ValueTuple.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\vbc.exe
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\vbc.exe.config
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\vbc.rsp
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Antlr3.Runtime.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\EntityFramework.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Web.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.ApplicationInsights.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Newtonsoft.Json.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Helpers.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Http.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Mvc.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Optimization.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Razor.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\WebGrease.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Atlassian.Jira.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\RestSharp.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.pdb
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.dll.config
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\EntityFramework.xml
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Newtonsoft.Json.xml
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Helpers.xml
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Mvc.xml
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Optimization.xml
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Razor.xml
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.xml
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Antlr3.Runtime.pdb
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Http.xml
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.ApplicationInsights.xml
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Web.xml
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csprojAssemblyReference.cache
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csproj.CoreCompileInputs.cache
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csproj.CopyComplete
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.dll
+C:\Users\This_User\Desktop\AyalasPro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.pdb
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\ApplicationInsights.config
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\Shleken.mdf
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\Shleken_log.ldf
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.dll.config
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.pdb
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\csc.exe
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\csc.exe.config
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\csc.rsp
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\csi.exe
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\csi.exe.config
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\csi.rsp
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.AppContext.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Console.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.Compression.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.Pipes.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Claims.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Threading.Thread.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.ValueTuple.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\vbc.exe
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\vbc.exe.config
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\vbc.rsp
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\Antlr3.Runtime.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\EntityFramework.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Web.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\Microsoft.ApplicationInsights.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\Newtonsoft.Json.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\System.Web.Helpers.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\System.Web.Http.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\System.Web.Mvc.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\System.Web.Optimization.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\System.Web.Razor.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\WebGrease.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\Atlassian.Jira.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\RestSharp.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.pdb
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.dll.config
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\EntityFramework.xml
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\Newtonsoft.Json.xml
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\System.Web.Helpers.xml
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\System.Web.Mvc.xml
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\System.Web.Optimization.xml
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\System.Web.Razor.xml
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.xml
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\Antlr3.Runtime.pdb
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\System.Web.Http.xml
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\Microsoft.ApplicationInsights.xml
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Web.xml
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csprojAssemblyReference.cache
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csproj.CoreCompileInputs.cache
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csproj.CopyComplete
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.dll
+C:\Users\hodaya\Dropbox\ServerSide\ayalaspro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.pdb
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\ApplicationInsights.config
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Shleken.mdf
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Shleken_log.ldf
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.dll.config
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.pdb
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csc.exe
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csc.exe.config
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csc.rsp
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csi.exe
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csi.exe.config
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csi.rsp
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.AppContext.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Console.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.Compression.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.Pipes.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Claims.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Threading.Thread.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.ValueTuple.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\vbc.exe
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\vbc.exe.config
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\vbc.rsp
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Antlr3.Runtime.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\EntityFramework.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Web.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.ApplicationInsights.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Newtonsoft.Json.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Helpers.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Http.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Mvc.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Optimization.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Razor.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\WebGrease.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Atlassian.Jira.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\RestSharp.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.pdb
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.dll.config
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\EntityFramework.xml
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Newtonsoft.Json.xml
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Helpers.xml
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Mvc.xml
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Optimization.xml
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Razor.xml
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.xml
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Antlr3.Runtime.pdb
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Http.xml
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.ApplicationInsights.xml
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Web.xml
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csprojAssemblyReference.cache
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csproj.CoreCompileInputs.cache
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csproj.CopyComplete
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.dll
+C:\Users\This_User\Dropbox\ServerSide\AyalasPro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.pdb
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\ApplicationInsights.config
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Shleken.mdf
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Shleken_log.ldf
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.dll.config
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.pdb
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csc.exe
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csc.exe.config
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csc.rsp
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csi.exe
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csi.exe.config
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\csi.rsp
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.AppContext.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Console.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.Compression.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.Pipes.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Claims.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Threading.Thread.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.ValueTuple.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\vbc.exe
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\vbc.exe.config
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\vbc.rsp
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Antlr3.Runtime.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\EntityFramework.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Web.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.ApplicationInsights.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Newtonsoft.Json.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Helpers.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Http.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Mvc.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Optimization.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Razor.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\WebGrease.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Atlassian.Jira.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\RestSharp.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.pdb
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.dll.config
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\EntityFramework.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Newtonsoft.Json.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Helpers.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Mvc.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Optimization.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Razor.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Antlr3.Runtime.pdb
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Http.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.ApplicationInsights.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Web.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csprojAssemblyReference.cache
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csproj.CoreCompileInputs.cache
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csproj.CopyComplete
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.pdb
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\ApplicationInsights.config
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Shleken.mdf
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Shleken_log.ldf
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.dll.config
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.pdb
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\csc.exe
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\csc.exe.config
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\csc.rsp
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\csi.exe
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\csi.exe.config
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\csi.rsp
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.AppContext.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Console.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.Compression.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.Pipes.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Claims.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Threading.Thread.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.ValueTuple.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\vbc.exe
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\vbc.exe.config
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\vbc.rsp
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Antlr3.Runtime.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\EntityFramework.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Web.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.ApplicationInsights.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Newtonsoft.Json.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.Helpers.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.Http.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.Mvc.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.Optimization.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.Razor.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\WebGrease.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Atlassian.Jira.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\RestSharp.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.pdb
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.dll.config
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\EntityFramework.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Newtonsoft.Json.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.Helpers.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.Mvc.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.Optimization.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.Razor.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Antlr3.Runtime.pdb
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.Http.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.ApplicationInsights.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Web.xml
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csprojAssemblyReference.cache
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csproj.CoreCompileInputs.cache
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csproj.CopyComplete
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.dll
+C:\Users\This_User\Desktop\גיבויים אילה\AyalasPro\project\project3\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.pdb
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\ApplicationInsights.config
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Shleken.mdf
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Shleken_log.ldf
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.dll.config
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Web.pdb
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\csc.exe
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\csc.exe.config
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\csc.rsp
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\csi.exe
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\csi.exe.config
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\csi.rsp
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.AppContext.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Console.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.Compression.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.IO.Pipes.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Claims.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Threading.Thread.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.ValueTuple.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XPath.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\vbc.exe
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\vbc.exe.config
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\vbc.rsp
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Antlr3.Runtime.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\EntityFramework.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Web.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.ApplicationInsights.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Newtonsoft.Json.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.Helpers.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.Http.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.Mvc.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.Optimization.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.Razor.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\WebGrease.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Atlassian.Jira.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\RestSharp.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.pdb
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Pajonos.Shleken.Services.dll.config
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\EntityFramework.xml
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Newtonsoft.Json.xml
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.Helpers.xml
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.Mvc.xml
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.Optimization.xml
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.Razor.xml
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.xml
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Antlr3.Runtime.pdb
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.Http.xml
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.ApplicationInsights.xml
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\bin\Microsoft.AI.Web.xml
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csprojAssemblyReference.cache
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csproj.CoreCompileInputs.cache
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.csproj.CopyComplete
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.dll
+C:\Users\This_User\Desktop\עבודות פרטיות\AyalasPro\project\project3\project\Pajonos.Shleken.Web\obj\Debug\Pajonos.Shleken.Web.pdb

@@ -1,0 +1,162 @@
+﻿@model Pajonos.Shleken.Services.Models.ProjectsViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ProjectShow</title>
+</head>
+<body>
+    <div>
+        <h4>ProjectsViewModel</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.OwnerId)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.OwnerId)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.OwnerName)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.OwnerName)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.AccountId)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.AccountId)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.StartDate)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.StartDate)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.EndDate)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.EndDate)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.StatusName)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.StatusName)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Status)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Status)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Comments)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Comments)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.JiraUrl)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.JiraUrl)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.JiraUserName)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.JiraUserName)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.JiraPassword)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.JiraPassword)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.JiraProjectkey)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.JiraProjectkey)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.TaskTotalCost)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.TaskTotalCost)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.TaskTotalHours)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.TaskTotalHours)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.TeamTotalCost)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.TeamTotalCost)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.TeamTotalHours)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.TeamTotalHours)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

@@ -1,0 +1,93 @@
+﻿@using Pajonos.Shleken.Services
+@using Pajonos.Shleken.Services.Models
+@using System.Globalization
+
+@model List<TeamsViewModel>
+@{
+    ViewData["Title"] = "Teams";
+
+  
+    var search = ViewBag.Search as TeamsearchViewModel;
+
+}
+
+@section TitleRight {
+
+<strong> @(search.FromDate.ToString("MMM", new CultureInfo("en-US")))  @search.FromDate.Year -  @(search.ToDate.ToString("MMM", new CultureInfo("en-US")))  @search.ToDate.Year</strong>
+    <a href="javascript:" class="btn btn-default btn-search"><i class="fa fa-filter" aria-hidden="true"></i></a>
+
+    <div class="btn-group" Roles="group">
+        <button type="button" class="btn btn-default"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+        <button type="button" class="btn btn-default"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+    </div>
+}
+
+@section Sidebar {
+    @Html.Partial("DashboardSidebar")
+}
+<div class="row search-panel">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <form class="form-inline" method="get">
+                    <div class="form-group">
+                        @Html.LabelFor(i => search.Name)
+                        @Html.TextBoxFor(i => search.Name, new { @class = "form-control", type = "text" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(i => search.FromDate)
+                        @Html.EditorFor(i => search.FromDate, new { htmlAttributes = new { @class = "form-control" }, type = "date" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(i => search.ToDate)
+                        @Html.EditorFor(i => search.ToDate, new { htmlAttributes = new { @class = "form-control" }, type = "date" })
+                    </div>
+                    <button type="submit" class="btn btn-primary">Search</button>
+                    <a href="~/Teams" class="btn btn-default">Clear</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    @foreach (var date in ViewBag.Dates)
+                    {
+                        <th style="width:90px;"class="text-center">
+                            @(date.ToString("MMM", new CultureInfo("en-US"))) @(date.Year)
+                        </th>
+                    }
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td><a href="#"><img src="~/images/@(item.Name).jpg" class="Users" /> @item.Name</a></td>
+                        @foreach (var i in item.AllHours)
+                        {
+                            <td  class="@(i.Hour > 180 ? "danger" : "") text-center">
+                                @i.Hour
+                            </td>
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+    <div class="col-md-12">
+        @foreach (var item in ViewBag.AlertMore180Hours)
+        {
+            <div class="alert alert-warning alert-xs"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> @item.Name  attend to work more then specified hours in  @(item.Date.ToString("MMM", new CultureInfo("en-US"))) @item.Date.Year </div>
+        }
+       
+
+    </div>
+</div>

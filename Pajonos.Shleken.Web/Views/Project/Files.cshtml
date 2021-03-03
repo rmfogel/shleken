@@ -1,0 +1,77 @@
+﻿@model List<FilesViewModel>
+@using Pajonos.Shleken.Services
+@using Pajonos.Shleken.Services.Models
+
+
+@{
+    ViewData["Title"] = "Files";
+    var search = ViewBag.Search as FilesearchViewModel;
+
+}
+
+
+@section Title {
+    <h2><a href="@Url.Action("Index","Project",new {Projects=(@ViewBag.ProjectId)})">@ViewBag.ProjectsName.Name</a></h2> \
+}
+
+@section TitleRight {
+    <a href="javascript:" class="btn btn-default btn-search"><i class="fa fa-filter" aria-hidden="true"></i></a>
+    <a href="~/project/@ViewBag.ProjectId/Files/New" class="btn btn-default" title="New Files" data-popup><i class="fa fa-plus" aria-hidden="true"></i> New</a>
+}
+
+@section Sidebar {
+    @Html.Partial("ProjectSidebar")
+}
+<div class="row search-panel">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <form class="form-inline" method="get">
+                    <div class="form-group">
+                        @Html.LabelFor(i => search.Name)
+                        @Html.TextBoxFor(i => search.Name, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(i => search.FromDate)
+                        @Html.TextBoxFor(i => search.FromDate, new { @class = "form-control", type = "date" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(i => search.ToDate)
+                        @Html.TextBoxFor(i => search.ToDate, new { @class = "form-control", type = "date" })
+                    </div>
+                    <button type="submit" class="btn btn-primary">Search</button>
+                    <a href="~/project/@(ViewBag.ProjectId)/Files" class="btn btn-default">Clear</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-bordered  table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Create Date</th>
+                    <th style="width:1px"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @item.Name
+                        </td>
+                        <td>
+                            @item.CreatedDate
+                           
+                        </td>
+                        <td> <a href="~/project/@(ViewBag.ProjectId)/Files/@(item.Id)/delete" class="pull-right delete-item"><i class="glyphicon glyphicon-trash" aria-hidden="true"></i></a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,99 @@
+﻿@model List<RefUserProViewModel>
+@using Pajonos.Shleken.Services
+@using Pajonos.Shleken.Services.Models
+
+
+@{
+    ViewData["Title"] = "Users";
+    var search = ViewBag.Search as UsersSearchViewModel;
+}
+
+
+@section Title {
+    <h2><a href="@Url.Action("Index","Project",new {Projects=(@ViewBag.ProjectId)})">@ViewBag.ProjectsName.Name</a></h2> \
+}
+
+@section TitleRight {
+    <a href="javascript:" class="btn btn-default btn-search"><i class="fa fa-filter" aria-hidden="true"></i></a>
+    <a href="~/project/@(ViewBag.ProjectId)/Users/New" class="btn btn-default" title="New Users" data-popup><i class="fa fa-plus" aria-hidden="true"></i> New</a>
+}
+
+@section Sidebar {
+    @Html.Partial("ProjectSidebar")
+}
+
+<div class="row search-panel">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <form class="form-inline" method="get">
+                    <div class="form-group">
+                        @Html.LabelFor(i => search.Name)
+                        @Html.TextBoxFor(i => search.Name, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(i => search.Role)
+                        @Html.TextBoxFor(i => search.Role, new { @class = "form-control" })
+                    </div>
+                    <button type="submit" class="btn btn-primary">Search</button>
+                    <a href="~/project/@(ViewBag.ProjectId)/Users" class="btn btn-default">Clear</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-bordered   table-striped">
+            <tr>
+                <th>
+                    User name
+                </th>
+
+                <th>
+                    Email
+                </th>
+                <th>
+                    Password
+                </th>
+
+                <th>
+                    Project
+                </th>
+
+                <th>Role</th>
+                <th>Price per hour</th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>
+                    @item.Name
+                </td>
+                <td>
+                    @item.Email
+                </td>
+                <td>
+                    @item.Password
+                </td>
+
+                <td>
+                    @item.ProjectName
+                </td>
+                <td>@Html.DisplayFor(modelitem => item.Task.Roles.Name)</td>
+               
+                <td>
+                @Html.DisplayFor(modelitem => item.Task.Value)</td>
+                <td>
+                    
+                    <a href="~/project/@(ViewBag.ProjectId)/Users/@(item.Id)/delete" class="pull-right delete-item"><i class="glyphicon glyphicon-trash fa-fw" aria-hidden="true"></i></a>
+                    <a href="~/project/@(item.ProjectId)/Users/@(item.Id)" title="Edit To Do List" data-popup class="pull-left"><i class="glyphicon glyphicon-pencil fa-fw" aria-hidden="true"></i></a>
+                </td>
+            </tr>
+            }
+
+        </table>
+    </div>
+</div>

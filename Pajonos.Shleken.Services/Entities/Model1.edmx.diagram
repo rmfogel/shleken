@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a88e0873f68e4ad3a156508b88872135" Name="Diagram1">
+        <EntityTypeShape EntityType="ShlekenModel.Accounts" Width="1.5" PointX="0.75" PointY="31.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShlekenModel.Activities" Width="1.5" PointX="5.25" PointY="20.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShlekenModel.Contacts" Width="1.5" PointX="5.25" PointY="23.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShlekenModel.Files" Width="1.5" PointX="5.25" PointY="42" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShlekenModel.Fixes" Width="1.5" PointX="5.25" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShlekenModel.Globals" Width="1.5" PointX="5.25" PointY="32.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShlekenModel.Incomes" Width="1.5" PointX="8.25" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShlekenModel.Meetings" Width="1.5" PointX="5.25" PointY="45.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShlekenModel.Outcomes" Width="1.5" PointX="5.25" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShlekenModel.Projects" Width="1.5" PointX="3" PointY="28.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShlekenModel.Projectstatuses" Width="1.5" PointX="0.75" PointY="28.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShlekenModel.RefUserPro" Width="1.5" PointX="8.25" PointY="46" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShlekenModel.Resources" Width="1.5" PointX="5.25" PointY="49.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShlekenModel.RiskPriorities" Width="1.5" PointX="6" PointY="27" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShlekenModel.RiskProbabilities" Width="1.5" PointX="6" PointY="53.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShlekenModel.Risks" Width="1.5" PointX="8.25" PointY="36" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShlekenModel.Risktatuses" Width="1.5" PointX="6" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShlekenModel.RoleResources" Width="1.5" PointX="5.25" PointY="57.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShlekenModel.Roles" Width="1.5" PointX="5.25" PointY="60.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShlekenModel.Tasks" Width="1.5" PointX="5.25" PointY="63.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShlekenModel.
+                         
+
+
+" Width="1.5" PointX="7.5" PointY="62" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShlekenModel.Teams" Width="1.5" PointX="10.5" PointY="47" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShlekenModel.ToDoLists" Width="1.5" PointX="11.25" PointY="41.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShlekenModel.ToDoListStatuses" Width="1.5" PointX="9" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShlekenModel.Users" Width="1.5" PointX="3" PointY="54.375" IsExpanded="true" />
+        <AssociationConnector Association="ShlekenModel.FK_Projects_Accounts" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_Users_Accounts" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_Activities_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_Contacts_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_Files_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_Files_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_Fixes_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_Globals_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_Incomes_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_Incomes_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_Meetings_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_Meetings_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_Outcomes_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_Outcomes_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK__RefUserPr__Proje__1BC821DD" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_Projects_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_Projects_Projectstatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_Resources_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_Risks_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_RoleResources_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_Roles_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_Tasks_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_Teams_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_ToDoLists_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK__RefUserPr__UserI__1AD3FDA4" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_Risks_RiskPriorities" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_Risks_RiskProbabilities" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_Risks_Projects1" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_Risks_Risktatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_TasksRoles_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_Teams_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_TasksRoles_Tasks" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_Teams_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_ToDoLists_ToDoListStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK_ToDoLists_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="ShlekenModel.FK__RefUserPr__RoleI__2739D489" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

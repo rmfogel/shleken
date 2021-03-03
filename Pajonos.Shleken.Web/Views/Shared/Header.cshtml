@@ -1,0 +1,96 @@
+﻿@using Pajonos.Shleken.Services.Models
+@using Pajonos.Shleken.Services
+
+@{
+    var Projects = Projectservice.Get();
+    string controllerAction = ViewContext.RouteData.Values["Controller"].ToString();
+    //   string controllerActionId = ViewContext.RouteData.Values["Projects"].ToString() + ViewContext.RouteData.Values["Controller"].ToString();
+}
+@*<style>
+
+
+
+    .top-nav-ul a {
+        color: white !important;
+    }
+    html .top-nav-ul .active
+    {
+        color: #081460 !important;
+        background-color: white !important;
+    }
+    .active {
+        background-color: #bf0f0f !important;
+        color: white;
+    }
+    .dropdown-menu a {
+        color: #bf0f0f;
+    }
+</style>*@
+<nav class="navbar navbar-default navbar-Fixesed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="~/">Shleken</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar-main">
+            <ul class="nav navbar-nav top-nav-ul">
+                @*<li class="hidden-xs"><a href="#" class="sidebar-toggle"><i class="fa fa-bars" aria-hidden="true"></i></a></li>*@
+                <li class="@(controllerAction == "Root" ? "active" : "" )"><a href="~/dashboard">Dashboard <span class="sr-only">(current)</span></a></li>
+                <li class="@(controllerAction == "Project" ? "active" : "" ) dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" Roles="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        @foreach (var pro in Userservice.GetProjectsForUsers(((UsersViewModel)Session["CurrentUsers"]).Id))
+                        {
+                            <li><a href ="@Url.Action("Project","Project",new { Projects =pro.Id})">@pro.Name </a></li>
+                        }
+                    </ul>
+                </li>
+                <li><a href="#">Timesheet</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown alerts">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" Roles="button" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-bell" aria-hidden="true"></i>  @Userservice.GetMeetingsForUser(((UsersViewModel)Session["CurrentUsers"]).Id).Count <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        @foreach(var item in Userservice.GetMeetingsForUser(((UsersViewModel)Session["CurrentUsers"]).Id))
+                        {
+                            <li>
+                                <strong>Meeting</strong>@item.ToString()
+                            </li>
+                        }
+                    </ul>
+                </li>
+                <li class="dropdown Users">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" Roles="button" aria-haspopup="true" aria-expanded="false">
+                        @*<img src="~/images/r.JPG" />*@
+                        @*<i class="fa fa-Users"></i>*@
+                        @(((UsersViewModel)Session["CurrentUsers"]).Name)
+
+                        <span class="caret">
+                        </span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#"><i class="fa fa-Users fa-fw" aria-hidden="true"></i> My ProFiles</a></li>
+                        <li><a href="#"><i class="fa fa-usd fa-fw" aria-hidden="true"></i> Billing</a></li>
+                        <li><a href="#"><i class="fa fa-cog fa-fw" aria-hidden="true"></i> Globals Settings</a></li>
+                        <li Roles="separator" class="divider"></li>
+                        <li class="disabled"><a href="javascript:">Change Account:</a></li>
+                       
+                        <li Roles="separator" class="divider"></li>
+                        <li>
+                        @*<a href="#"><i class="fa fa-sign-out fa-fw" aria-hidden="true"></i> Logout</a>*@
+                            @Html.ActionLink("Logout","Logout2","Login")
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

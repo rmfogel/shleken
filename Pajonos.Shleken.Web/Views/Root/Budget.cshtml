@@ -1,0 +1,127 @@
+﻿@using Pajonos.Shleken.Services
+@using Pajonos.Shleken.Services.Models
+@model BudgetViewModel
+@{
+    ViewData["Title"] = "Budget";
+    var search = ViewBag.Search as BudgetSearchViewModel;
+}
+
+@section Sidebar {
+    @Html.Partial("DashboardSidebar")
+}
+@section TitleRight {
+    <a href="javascript:" class="btn btn-default btn-search"><i class="fa fa-filter" aria-hidden="true"></i></a>
+}
+<div class="row search-panel">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <form class="form-inline" method="get">
+                    <div class="form-group">
+                        @Html.LabelFor(i => search.ProjectId)
+                        @Html.DropDownListFor(i => search.ProjectId, new SelectList(ViewBag.Projects, "Id", "Name"), new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(i => search.FromDate)
+                        @Html.TextBoxFor(i => search.FromDate, new { @class = "form-control", type = "date" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(i => search.ToDate)
+                        @Html.TextBoxFor(i => search.ToDate, new { @class = "form-control", type = "date" })
+                    </div>
+                    <button type="submit" class="btn btn-primary">Search</button>
+                    <a  href="~/budget" class="btn btn-default">Clear</a>
+                   
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"><a href="~/1/statistics"><i class="fa fa-sign-out" aria-hidden="true"></i> Outcomes</a></h3>
+            </div>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Projects Name</th>
+                        <th>Desination</th>
+                        <th>Description</th>
+                        <th>Approver</th>
+                        <th>Date</th>
+                        <th>Cost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Outcomes)
+                    {
+                        <tr>
+                            <td><a href="~/Projects/@item.ProjectId"> @item.Projects.Name</a></td>
+                            <td> @item.Desination</td>
+                            <td> @item.Description</td>
+                            <td>
+                                <a>@item.ApproverName</a>
+                            </td>
+                            <td> @item.Date</td>
+                            <td>
+                                @(item.Cost + "$")
+                            </td>
+
+                        </tr>
+                    }
+                </tbody>
+                <tfoot>
+                    <tr class="success strong">
+                        <td colspan="5">Total</td>
+                        <td>@(Model.OutcomesTotal + "$")</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"><a href="~/1/statistics"><i class="fa fa-sign-in" aria-hidden="true"></i> Incomes</a></h3>
+            </div>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Projects Name</th>
+                        <th>Source</th>
+                        <th>Description</th>
+                        <th>Approver</th>
+                        <th>Date</th>
+                        <th>Cost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Incomes)
+                    {
+                        <tr>
+                            <td><a href="~/Projects/@item.ProjectId"> @item.Projects.Name</a></td>
+                            <td>@item.Source</td>
+                            <td>@item.Description</td>
+                            <td>
+                                <a>@item.ApproverName</a>
+                            </td>
+                            <td>@item.Date</td>
+                            <td>
+                                @(item.Cost + "$")
+                        </tr>
+                    }
+                </tbody>
+                <tfoot>
+                    <tr class="success strong">
+                        <td colspan="5">Total</td>
+                        <td>@(Model.IncomesTotal + "$")</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</div>
+
